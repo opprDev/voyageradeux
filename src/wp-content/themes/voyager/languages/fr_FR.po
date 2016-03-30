@@ -1,0 +1,4035 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Voyager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-28 14:56+0100\n"
+"PO-Revision-Date: 2016-02-19 09:38+0100\n"
+"Last-Translator: paulgaudriault <paul.gaudriault@gmail.com>\n"
+"Language-Team: The Happy Bit <thehappybit@gmail.com>\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;_e:1;"
+"_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;_ex:1,2c;"
+"_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;esc_html__:1;"
+"esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;comments_number_link:2,3;"
+"t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Loco-Target-Locale: fr_FR\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../comment.php:38
+#, php-format
+msgid "%1$s <span>at</span> %2$s"
+msgstr ""
+
+#: ../loop/attachments.php:45
+#, php-format
+msgid "<span class=\"%1$s\">By</span> %2$s"
+msgstr ""
+
+#: ../loop/attachments.php:55
+#, php-format
+msgid "<span class=\"%1$s\">Published on</span> %2$s"
+msgstr ""
+
+#: ../config/config-plugins.php:112 ../framework/lib/class.tgm_plugin_activation.
+#: php:237
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. Contact "
+"the administrator of this site for help on getting the plugin updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. Contact "
+"the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../config/modules/backpack/builder/lib.php:273
+msgid ""
+"For SEO and good content hierarchy purposes, a block in each section can be "
+"identified as the section's title."
+msgstr ""
+
+#: ../config/modules/backpack/blog/module.php:406
+msgid ""
+"Specify a selfhosted video with one of the supported formats, or embed a video from "
+"external services such as YouTube or Vimeo.<br><br>Please note that selfhosted "
+"videos will have precedence over embeds."
+msgstr ""
+
+#: ../config/modules/backpack/appearance/module.php:37
+msgid "Custom frontend CSS"
+msgstr ""
+
+#: ../config/modules/backpack/appearance/module.php:38
+msgid ""
+"You can easily find CSS elements by using your browser inspector or Firebug, or view "
+"a quick guide <a href=\"http://sixrevisions.com/tools/firebug-guide-web-designers/\" "
+"target=\"_blank\">here</a>."
+msgstr ""
+
+#: ../config/modules/backpack/appearance/module.php:64
+msgid ""
+"To import a specific font, just create a new collection at <a href=\"http://www."
+"google.com/fonts\" target=\"blank\">Google Fonts</a> and paste the @import code that "
+"you can find on section \"3. Add this code to your website:\" after clicking on \"Use"
+"\".<br>Upon saving the system will take care of the rest and you'll find the font at "
+"the bottom of the appropriate Customizer font select controls under the \"Other\" "
+"label.\n"
+"\t\t\t\t<br><br>The code would look like: <code>@import url(http://fonts.googleapis."
+"com/css?family=Frijole);</code>"
+msgstr ""
+
+#: ../config/modules/backpack/appearance/module.php:78
+msgid ""
+"Here you can add your Typekit kit ID or include code from other external fonts web "
+"services like Fonts.com, Fontdeck, etc.<br /><br />\n"
+"\t<strong>Typekit kit ID</strong><br />\n"
+"\tPaste you Typekit kit ID in order to use your Typekit fonts directly on in the "
+"WordPress Customizer.<br />\n"
+"\tYou might want to read more about how to <a href=\"http://help.typekit.com/"
+"customer/portal/articles/6780-adding-fonts-to-your-site\" target=\"_blank\">create a "
+"kit<a> on the Typekit website.<br />\n"
+"\tPlease remember to always add your development domain to the Typekit kit domains "
+"list. You can read more about this topic <a href=\"http://help.typekit.com/customer/"
+"portal/articles/6856-Domains\" target=\"_blank\">here</a> and <a href=\"http://help."
+"typekit.com/customer/portal/articles/6857-using-typekit-while-developing-locally\" "
+"target=\"_blank\">here</a>.<br /><br />"
+msgstr ""
+
+#: ../config/modules/backpack/appearance/module.php:85
+msgid ""
+"<strong>External import code</strong><br />\n"
+"\tYou can use the \"External import code\" textarea to add the code needed by your "
+"webfont service in order to import its custom fonts."
+msgstr ""
+
+#: ../config/modules/backpack/appearance/module.php:106
+msgid ""
+"These are all the fonts used throughout the theme. Every change you make in the "
+"WordPress Customizer area will be reflected in this tab.<br /><br />\n"
+"\tHere you can choose to refine your font variants. Variants can then be used in the "
+"Custom frontend CSS textarea on this tab.<br />\n"
+"\tFor each font family imported in the theme you&#39;ll find a reference to the CSS "
+"selector in use for that family. Clicking on it will automatically select the whole "
+"selector, so that you can copy and paste it in the Custom frontend CSS textarea or "
+"in your external CSS file."
+msgstr ""
+
+#: ../config/modules/backpack/appearance/module.php:118
+#, php-format
+msgid ""
+"Upload a Font Face kit archive package from <a href=\"%s\">Font Squirrel</a>. The "
+"archive will be unpacked automatically and the fonts will become available for you "
+"to select in the <a href=\"%s\">Customize screen</a>."
+msgstr ""
+
+#: ../config/modules/backpack/general/builder_blocks.php:755
+msgid ""
+"Display a column-wide image. You can put text beneath it, optionally load it in a "
+"popup."
+msgstr ""
+
+#: ../config/modules/backpack/general/builder_blocks.php:783
+msgid "Open in lightbox"
+msgstr ""
+
+#: ../config/modules/backpack/general/builder_blocks.php:786
+#, php-format
+msgid ""
+"Remember to activate the lightbox functionality from the <a href=\"%s\" target="
+"\"_blank\">theme options</a> panel."
+msgstr ""
+
+#: ../config/modules/backpack/general/builder_blocks.php:795
+msgid ""
+"When not opening the image in a lightbox, you can specify a custom link. You can use "
+"a manual URL http:// or a post or page ID."
+msgstr ""
+
+#: ../config/modules/backpack/general/module.php:69
+msgid "Text outside bar"
+msgstr ""
+
+#: ../config/modules/backpack/general/module.php:70
+msgid "Text inside bar"
+msgstr ""
+
+#: ../config/modules/backpack/general/module.php:185
+msgid ""
+"If you want to use a custom feed service, like Feedburner or others, enter your "
+"preferred RSS feed URL. Otherwise the default WordPress RSS feed will be used."
+msgstr ""
+
+#: ../config/modules/bbpress/bbpress_options.php:37
+msgid "bbPress"
+msgstr ""
+
+#: ../config/modules/woocommerce/woo_options.php:54
+msgid "WooCommerce"
+msgstr ""
+
+#: ../config/modules/woocommerce/woo_options.php:76
+msgid "Shop and Product archive page sidebar."
+msgstr ""
+
+#: ../config/modules/woocommerce/woo_options.php:84
+msgid "Shop page sidebar position"
+msgstr ""
+
+#: ../config/modules/woocommerce/woo_options.php:85
+msgid "Shop and Product archive page sidebar position."
+msgstr ""
+
+#: ../config/modules/woocommerce/woo_options.php:94
+msgid "Products to show"
+msgstr ""
+
+#: ../config/modules/woocommerce/woo_options.php:95
+msgid "Choose how many products will be displayed on Shop page."
+msgstr ""
+
+#: ../config/modules/woocommerce/woo_options.php:98
+msgid "Product page options"
+msgstr ""
+
+#: ../config/modules/woocommerce/woo_options.php:101
+msgid "Related product to show"
+msgstr ""
+
+#: ../config/modules/woocommerce/woo_options.php:102
+msgid "Choose how many related posts will be displayed on single product page."
+msgstr ""
+
+#: ../config/modules/woocommerce/woo_options.php:107
+msgid "Product page sidebar"
+msgstr ""
+
+#: ../config/modules/woocommerce/woo_options.php:115
+msgid "Product page sidebar position"
+msgstr ""
+
+#: ../config/trips/options.php:13
+msgid "URL slug"
+msgstr ""
+
+#: ../config/trips/options.php:14
+#, php-format
+msgid ""
+"URL slug for Trips items. Defaults to \"trip\". Remember to <a href=\"%s\">re-save "
+"the site's permalinks</a>."
+msgstr ""
+
+#: ../framework/lib/class.tgm_plugin_activation.php:1639
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../framework/lib/class.tgm_plugin_activation.php:1755
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../framework/lib/class.tgm_plugin_activation.php:2099
+msgid "Install package not available."
+msgstr ""
+
+#: ../framework/lib/class.tgm_plugin_activation.php:2100
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../framework/lib/class.tgm_plugin_activation.php:2101
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../framework/lib/class.tgm_plugin_activation.php:2102
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../framework/lib/class.tgm_plugin_activation.php:2103
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../framework/lib/class.tgm_plugin_activation.php:2104
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../framework/lib/class.tgm_plugin_activation.php:2115
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../framework/lib/class.tgm_plugin_activation.php:2238
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../framework/lib/class.tgm_plugin_activation.php:2239
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../framework/lib/class.tgm_plugin_activation.php:2243
+msgid ""
+"The installation and activation process is starting. This process may take a while "
+"on some hosts, so please be patient."
+msgstr ""
+
+#: ../framework/lib/class.tgm_plugin_activation.php:2244
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../framework/lib/class.tgm_plugin_activation.php:2245
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../framework/lib/class.tgm_plugin_activation.php:2246
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/lib/class.tgm_plugin_activation.php:2250
+msgid ""
+"The installation process is starting. This process may take a while on some hosts, "
+"so please be patient."
+msgstr ""
+
+#: ../framework/lib/class.tgm_plugin_activation.php:2251
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../framework/lib/class.tgm_plugin_activation.php:2252
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../framework/lib/class.tgm_plugin_activation.php:2253
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/core/class.adminpage.php:245
+#, php-format
+msgid "The specified tab action must be a valid function: \"%s\"."
+msgstr ""
+
+#: ../framework/core/class.adminmenunavwalker.php:156
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ../framework/core/class.adminmenunavwalker.php:162
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: ../framework/core/pages/class.frameworksettings.php:55
+#, php-format
+msgid ""
+"Enter a list of usernames to hide this page from other users. Can be reset from the "
+"<a href=\"%s\">WP options page</a> under <code>thb_super_users</code>."
+msgstr ""
+
+#: ../framework/core/pages/class.frameworksettings.php:69
+msgid "Compact frontend scripts"
+msgstr ""
+
+#: ../framework/core/pages/class.frameworksettings.php:70
+msgid "Checking this option will compact most of the theme scripts on frontend."
+msgstr ""
+
+#: ../framework/core/pages/class.frameworksettings.php:84
+msgid ""
+"Upload an image to be used as a logo in the login screen of your site. Please "
+"remember to load a properly dimensioned logo."
+msgstr ""
+
+#: ../framework/core/pages/class.frameworksettings.php:89
+msgid "Custom admin CSS"
+msgstr ""
+
+#: ../framework/core/pages/class.frameworksettings.php:90
+msgid ""
+"Here you can add some extra CSS that will be imported in the WordPress "
+"Administration area and in the WordPress Login page.<br /><br />\n"
+"\t\t\t\t\t\t\tYou can easily find CSS elements by using your browser inspector or "
+"Firebug, or view a quick guide <a href=\"http://sixrevisions.com/tools/firebug-guide-"
+"web-designers/\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: ../framework/core/pages/class.frameworksettings.php:103
+msgid ""
+"Backup your duplicable content (slides, meta fields, etc.), options and "
+"customizations to the theme's appearance. Upon clicking on the Export button, the "
+"browser will prompt you to save a file with a <code>.thb-backup</code> extension "
+"which will contain your settings, encrypted."
+msgstr ""
+
+#: ../framework/core/pages/class.frameworksettings.php:111
+msgid "Export skin"
+msgstr ""
+
+#: ../framework/core/pages/class.frameworksettings.php:124
+msgid ""
+"Import a previously saved <code>.thb-backup</code> file. Please note that this will "
+"completely overwrite your options or skin settings."
+msgstr ""
+
+#: ../framework/core/pages/class.frameworksettings.php:127
+msgid "Upload backup file"
+msgstr ""
+
+#: ../framework/core/pages/class.frameworksettings.php:138
+msgid "Dummy content"
+msgstr ""
+
+#: ../framework/core/pages/class.frameworksettings.php:142
+msgid "Remove dummy content"
+msgstr ""
+
+#: ../framework/core/pages/class.frameworksettings.php:143
+msgid "Select which imported contents you want to remove from this installation."
+msgstr ""
+
+#: ../framework/core/pages/class.frameworksettings.php:148
+#, php-format
+msgid "Remove contents from the %s section."
+msgstr ""
+
+#: ../framework/core/pages/class.frameworksettings.php:155
+msgid "Remove imported attachments."
+msgstr ""
+
+#: ../framework/core/fields/class.queryfilterfield.php:48
+msgid "Include entries from taxonomies"
+msgstr ""
+
+#: ../framework/core/fields/class.queryfilterfield.php:49
+msgid "Exclude entries from taxonomies"
+msgstr ""
+
+#: ../framework/core/fields/class.queryfilterfield.php:51
+msgid "Order by"
+msgstr ""
+
+#: ../framework/core/fields/class.queryfilterfield.php:56
+msgid "Alphabetically"
+msgstr ""
+
+#: ../framework/core/fields/class.slidefield.php:93 ..
+#: framework/templates/admin/fields/field_video.php:76
+msgid ""
+"Enable the auto fit mode: leaving this unchecked will result in a stretched video."
+msgstr ""
+
+#: ../framework/templates/admin/fields/field_queryfilter.php:89
+msgid ""
+"When filtering by one or more category, include/exclude items belonging to "
+"subcategories in the results."
+msgstr ""
+
+#: ../framework/templates/admin/fields/field_video.php:41
+msgid "Alternatively, insert the URL to an external video to be embedded."
+msgstr ""
+
+#: ../single.php:37 ../framework/core/class.posttype.php:233
+msgid "Pages"
+msgstr "Page"
+
+#: ../single.php:59 ../single-trip.php:64 ../single-trip.php:104 ..
+#: loop/formats/masonry.php:117 ../loop/formats/classic.php:117
+msgid "by"
+msgstr "Par"
+
+#: ../single.php:64
+msgid "Filed under"
+msgstr "Enregistré sous"
+
+#: ../single.php:69
+msgid "Tagged"
+msgstr "taggé"
+
+#: ../single.php:89
+msgid "About"
+msgstr "A propos"
+
+#: ../single.php:105 ../config/modules/backpack/blog/module.php:165
+msgid "Related posts"
+msgstr "Recommandé pour vous"
+
+#: ../single.php:113 ../single-trip.php:169 ../template-blog-grid.php:53 ..
+#: single-works.php:141 ../template-blank.php:66 ../template-photogallery.php:50
+#: ../page.php:42 ../template-portfolio.php:61
+msgid "Leave a reply"
+msgstr "Poster une réponse"
+
+#: ../single-trip.php:86
+msgid "View gallery"
+msgstr "Voir la galerie"
+
+#: ../comment.php:7
+msgid "Pingback:"
+msgstr "ping de retour"
+
+#: ../comment.php:9
+msgid "(Edit)"
+msgstr "(Editer)"
+
+#: ../comment.php:17 ../framework/helpers/helper.comments.php:34
+msgid "Reply"
+msgstr "Répodnre"
+
+#: ../comment.php:26
+msgid "Comment by"
+msgstr "Commentaire par"
+
+#: ../comment.php:46
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération"
+
+#: ../searchform.php:3 ../bbpress/form-search.php:13
+msgid "Search for:"
+msgstr "Recherche pour :"
+
+#: ../searchform.php:4
+msgid "Type your keywords and hit enter"
+msgstr "Tapez vos mots-clés et appuyez sur la touche Entrée"
+
+#: ../single-works.php:111
+msgid "Project categories"
+msgstr "Catégories de projets"
+
+#: ../single-works.php:116
+msgid "External URL"
+msgstr "URL externe"
+
+#: ../single-works.php:131 ../framework/helpers/helper.frontend.php:533
+msgid "Previous"
+msgstr "Précédent"
+
+#: ../single-works.php:132 ../framework/helpers/helper.frontend.php:534
+msgid "Next"
+msgstr "Suivant"
+
+#: ../template-blank.php:92 ../footer.php:16 ..
+#: config/modules/backpack/general/templates/block_thb_divider.php:17
+msgid "Go top"
+msgstr "Allé en haut"
+
+#: ../comments.php:8
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Article protégé par mot de passe. Entrez le mot de passe pour voir les commentaires"
+
+#: ../comments.php:31
+msgid "Comments are closed."
+msgstr "Commentaires fermés"
+
+#: ../footer.php:19
+msgid "Close"
+msgstr "Fermé"
+
+#: ../footer.php:24 ../partials/partial-inline-navigation.php:26
+msgid "Main navigation"
+msgstr "Navigation principale"
+
+#: ../footer.php:30
+msgid "Secondary navigation"
+msgstr "Navigation secondaire"
+
+#: ../404.php:25
+msgid "Apologies, but the page you requested could not be found."
+msgstr "Désolé, mais la page que vous demandez ne peut être trouvée"
+
+#: ../404.php:26
+msgid "Perhaps searching will help."
+msgstr "Une recherche pourrait aider"
+
+#: ../template-portfolio.php:32
+msgid ""
+"It looks like the THB Portfolio plugin is not active.</br>Please install or activate "
+"it in order to display your portfolio items."
+msgstr ""
+"Il s’embrelait que le plugin THB Portfolio ne soit pas actif.<br> Installez ou "
+"activez le plugin pour permettre l'affichage des éléments du portfolio"
+
+#: ../loop/attachments.php:49
+#, php-format
+msgid "View all posts by %s"
+msgstr "Voir tous les post par %s"
+
+#: ../loop/attachments.php:66
+#, php-format
+msgid "Full size is %s pixels"
+msgstr "Résolution intégrale = %s pixels"
+
+#: ../loop/attachments.php:69
+msgid "Link to full-size image"
+msgstr "Lien vers l'image en taille réelle "
+
+#: ../loop/blog-classic.php:57 ../loop/blog-masonry.php:55
+msgid "Sorry, there aren't posts to be shown!"
+msgstr "Désolé, aucun post à montrer"
+
+#: ../loop/archive.php:27
+msgid "Sorry, there aren't posts to be shown! Perhaps searching will help."
+msgstr "Désolé, aucun post à montrer, une recherche pourrai aider"
+
+#: ../loop/formats/masonry.php:17 ../loop/formats/classic.php:17 ../templates/thb-
+#: portfolio/portfolio-item.php:15
+msgid "Protected: "
+msgstr "Protégé"
+
+#: ../loop/formats/masonry.php:170 ../loop/formats/classic.php:156
+msgid "This post is password protected."
+msgstr "Ce post est protégé par un mot de passe"
+
+#: ../loop/formats/masonry.php:199 ../loop/formats/classic.php:188 ..
+#: config/modules/backpack/general/templates/block_thb_page.php:64
+msgid "Read more"
+msgstr "Lire plus"
+
+#: ../loop/formats/classic.php:171
+msgid "on"
+msgstr "sur"
+
+#: ../bbpress/form-search.php:15
+msgid "Search the forums"
+msgstr "Recherches sur le forum"
+
+#: ../bbpress/form-search.php:16
+msgid "Search"
+msgstr "Recherche"
+
+#: ../woocommerce/theme-woocommerce.php:89
+msgid "Category"
+msgstr "Catégorie"
+
+#: ../woocommerce/theme-woocommerce.php:93
+msgid "Tag"
+msgstr "Etiquette"
+
+#: ../woocommerce/theme-woocommerce.php:173
+msgid "Out of stock"
+msgstr "Rupture de stock"
+
+#: ../woocommerce/single-product/share.php:21 ../partials/partial-share.php:11 ..
+#: partials/partial-share.php:49
+msgid "Share on"
+msgstr "Partagé sur"
+
+#: ../woocommerce/single-product/share.php:27 ../partials/partial-share.php:17
+msgid "Share"
+msgstr "Partagé"
+
+#: ../woocommerce/single-product/share.php:27 ../partials/partial-share.php:17
+msgid "on Facebook"
+msgstr "Sur Facebook"
+
+#: ../woocommerce/single-product/share.php:34 ../partials/partial-share.php:24
+msgid "Pin"
+msgstr "Epinglé"
+
+#: ../woocommerce/single-product/share.php:34 ../woocommerce/single-product/share.
+#: php:41 ../woocommerce/single-product/share.php:48 ../partials/partial-share. php:24
+#: ../partials/partial-share.php:35 ../partials/partial-share.php:42
+msgid "this item"
+msgstr "cet élément"
+
+#: ../woocommerce/single-product/share.php:41 ../partials/partial-share.php:35
+msgid "Tweet"
+msgstr "Tweet"
+
+#: ../woocommerce/single-product/share.php:48 ../partials/partial-share.php:42
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: ../woocommerce/single-product/share.php:55 ../partials/partial-share.php:56 ..
+#: config/config-custom.php:42
+msgid "Email"
+msgstr "Email"
+
+#: ../woocommerce/single-product/share.php:55 ../partials/partial-share.php:56
+msgid "a friend"
+msgstr "Un ami"
+
+#: ../woocommerce/loop/add-to-cart.php:14
+msgid "Item added"
+msgstr "article ajouté"
+
+#: ../woocommerce/loop/add-to-cart.php:15
+msgid "Add to cart"
+msgstr "Ajouter au panier"
+
+#: ../woocommerce/checkout/form-coupon.php:16
+msgid "Have a coupon?"
+msgstr "Disposez vous d'une réduction"
+
+#: ../woocommerce/checkout/form-coupon.php:16
+msgid "Click here to enter your code"
+msgstr "Cliquez ici pour entrer votre code"
+
+#: ../woocommerce/checkout/form-coupon.php:22 ../woocommerce/cart/cart.php:120
+msgid "Coupon code"
+msgstr "Code de réduction"
+
+#: ../woocommerce/checkout/form-coupon.php:23 ../woocommerce/checkout/form-coupon.
+#: php:24 ../woocommerce/cart/cart.php:120
+msgid "Apply Coupon"
+msgstr "Appliquer la réduction"
+
+#: ../woocommerce/checkout/review-order.php:17 ../woocommerce/cart/cart.php:27
+msgid "Product"
+msgstr "Produit"
+
+#: ../woocommerce/checkout/review-order.php:18 ../woocommerce/cart/cart.php:30
+msgid "Total"
+msgstr "Total"
+
+#: ../woocommerce/checkout/review-order.php:50
+msgid "Cart Subtotal"
+msgstr "Sous-total du panier"
+
+#: ../woocommerce/checkout/review-order.php:97
+msgid "Order Total"
+msgstr "Total de la commande"
+
+#: ../woocommerce/checkout/form-checkout.php:20
+msgid "You must be logged in to checkout."
+msgstr "Vous devez être identifié pour procéder au paiement"
+
+#: ../woocommerce/checkout/form-checkout.php:52
+msgid "Your order"
+msgstr "Votre commande"
+
+#: ../woocommerce/cart/cart.php:28 ..
+#: config/modules/backpack/general/templates/fields/field_pricingtable.php:12
+msgid "Price"
+msgstr "Prix"
+
+#: ../woocommerce/cart/cart.php:29
+msgid "Quantity"
+msgstr "Quantité"
+
+#: ../woocommerce/cart/cart.php:47
+msgid "Remove this item"
+msgstr "Retirer cet article"
+
+#: ../woocommerce/cart/cart.php:74
+msgid "Available on backorder"
+msgstr "Disponible avant rupture de stock"
+
+#: ../woocommerce/cart/cart.php:120
+msgid "Coupon"
+msgstr "Réduction"
+
+#: ../woocommerce/cart/cart.php:128 ../woocommerce/cart/cart.php:129
+msgid "Update Cart"
+msgstr "Mettre à jour le panier"
+
+#: ../templates/thb-portfolio/portfolio-filter.php:18
+msgid "All"
+msgstr "Tout"
+
+#: ../templates/framework/templates/admin/fields/field_voyager_trip_stop.php:6
+msgid "Click to edit"
+msgstr "Cliquez pour modifier"
+
+#: ../templates/framework/templates/admin/fields/field_voyager_trip_stop.php:7
+msgid "New trip stop"
+msgstr "Nouvelle arrêt"
+
+#: ../partials/partial-share.php:49 ../config/config-options.php:195
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: ../partials/partial-page-featured-image.php:96
+msgid "Hide map"
+msgstr "Masquer la carte"
+
+#: ../partials/partial-pageheader.php:143
+msgid "Show map"
+msgstr "Voir la carte"
+
+#: ../config/config-functionalities.php:37
+msgid "No gutter"
+msgstr "Pas de marge"
+
+#: ../config/config-functionalities.php:38 ../config/config-custom.php:386 ..
+#: config/modules/backpack/photogallery/builder_blocks.php:74
+#: config/modules/backpack/general/builder_blocks.php:54
+#: config/modules/backpack/general/builder_blocks.php:252
+#: config/modules/backpack/general/builder_blocks.php:402
+#: config/modules/backpack/general/builder_blocks.php:545
+#: config/modules/backpack/general/builder_blocks.php:778 ../config/trips/fields.
+#: php:178
+msgid "Small"
+msgstr "Petit"
+
+#: ../config/config-functionalities.php:39 ..
+#: config/modules/backpack/general/builder_blocks.php:55
+#: config/modules/backpack/general/builder_blocks.php:403
+#: config/modules/backpack/general/builder_blocks.php:546
+#: framework/core/customization/controls.php:214
+#: framework/core/customization/controls.php:256
+#: framework/core/customization/controls.php:298
+msgid "Normal"
+msgstr "Normal"
+
+#: ../config/config-functionalities.php:42 ../config/config-functionalities.php: 245
+#: ../config/config-functionalities.php:334 ../config/config-custom.php:280 ..
+#: config/config-custom.php:335 ../config/modules/backpack/layout/module.php:39 .
+#: config/modules/backpack/sidebars/posttype.php:48
+#: config/modules/backpack/general/builder_blocks.php:1355
+#: config/modules/bbpress/bbpress_options.php:52
+#: config/modules/woocommerce/woo_options.php:88
+#: config/modules/woocommerce/woo_options.php:118
+#: framework/core/customization/controls.php:371
+msgid "Left"
+msgstr "Gauche"
+
+#: ../config/config-functionalities.php:43 ../config/config-functionalities.php: 247
+#: ../config/config-functionalities.php:336 ../config/config-custom.php:282 ..
+#: config/config-custom.php:337 ../config/modules/backpack/layout/module.php:41 .
+#: config/modules/backpack/sidebars/posttype.php:47
+#: config/modules/backpack/general/builder_blocks.php:1356
+#: config/modules/bbpress/bbpress_options.php:51
+#: config/modules/woocommerce/woo_options.php:87
+#: config/modules/woocommerce/woo_options.php:117
+#: framework/core/customization/controls.php:373
+msgid "Right"
+msgstr "Droit"
+
+#: ../config/config-functionalities.php:79
+msgid "Classic"
+msgstr "Classique"
+
+#: ../config/config-functionalities.php:80
+msgid "Masonry"
+msgstr "Masonry"
+
+#: ../config/config-functionalities.php:112
+msgid "Standard header"
+msgstr "Header standar"
+
+#: ../config/config-functionalities.php:113
+msgid "Big header"
+msgstr "Grand header"
+
+#: ../config/config-functionalities.php:114
+msgid "Medium header"
+msgstr "Header moyen"
+
+#: ../config/config-functionalities.php:115
+msgid "Medium header with line"
+msgstr "Header moyen avec ligne"
+
+#: ../config/config-functionalities.php:116
+msgid "Small header"
+msgstr "Petit header"
+
+#: ../config/config-functionalities.php:207 ../config/config-functionalities.php: 275
+msgid "Heading"
+msgstr "En tête"
+
+#: ../config/config-functionalities.php:210 ../config/config-functionalities.php: 299
+msgid "Overlay"
+msgstr "Recouvrement"
+
+#: ../config/config-functionalities.php:214 ../config/config-functionalities.php: 303
+msgid "Overlay display"
+msgstr "Afficher le recouvrement"
+
+#: ../config/config-functionalities.php:218 ../config/config-functionalities.php: 307
+#: ../framework/templates/admin/fields/field_background.php:18
+msgid "Overlay color"
+msgstr "Couleur du recouvrement"
+
+#: ../config/config-functionalities.php:226 ../config/config-functionalities.php: 315
+#: ../framework/templates/admin/fields/field_background.php:23
+msgid "Overlay opacity"
+msgstr "Opacité du recouvrement"
+
+#: ../config/config-functionalities.php:229 ../config/config-functionalities.php: 318
+msgid "Caption & call-to-action"
+msgstr "Citation et bouton d'action"
+
+#: ../config/config-functionalities.php:233 ../config/config-functionalities.php: 322
+msgid "Caption position"
+msgstr "Position de la citation"
+
+#: ../config/config-functionalities.php:236 ../config/config-functionalities.php: 326
+#: ../config/config-custom.php:289 ..
+#: config/modules/backpack/general/builder_blocks.php:95
+#: framework/helpers/helper.frontend.php:1125
+msgid "Bottom"
+msgstr "Bas"
+
+#: ../config/config-functionalities.php:237 ../config/config-functionalities.php: 325
+#: ../config/config-custom.php:290 ..
+#: config/modules/backpack/general/builder_blocks.php:96
+#: framework/helpers/helper.frontend.php:1126
+msgid "Top"
+msgstr "Haut"
+
+#: ../config/config-functionalities.php:242 ../config/config-functionalities.php: 331
+msgid "Caption alignment"
+msgstr "Alignement de la citation"
+
+#: ../config/config-functionalities.php:246 ../config/config-functionalities.php: 335
+#: ../config/config-custom.php:281 ../config/config-custom.php:336 ..
+#: config/modules/backpack/layout/module.php:40
+#: config/modules/backpack/general/builder_blocks.php:1357
+#: framework/core/customization/controls.php:372
+msgid "Center"
+msgstr "Centré"
+
+#: ../config/config-functionalities.php:252 ../config/config-functionalities.php: 341
+msgid "Call to action label"
+msgstr "Bouton d'appel à l'action"
+
+#: ../config/config-functionalities.php:253 ../config/config-functionalities.php: 342
+#: ../config/modules/backpack/general/builder_blocks.php:120 ..
+#: config/modules/backpack/general/builder_blocks.php:136
+msgid "The call to action button label."
+msgstr "Le bouton d'appel à l'action"
+
+#: ../config/config-functionalities.php:257 ../config/config-functionalities.php: 346
+msgid "Call to action URL"
+msgstr "URL de l'appel à l'action"
+
+#: ../config/config-functionalities.php:258 ../config/config-functionalities.php: 347
+#: ../config/modules/backpack/general/builder_blocks.php:125 ..
+#: config/modules/backpack/general/builder_blocks.php:141
+msgid ""
+"The call to action button URL. You can use a manual URL http:// or a post or page ID."
+msgstr ""
+"URL du bouton d'appel à l'action. Vous pouvez utiliser une URL manuelle "
+"(http://......) ou l'ID d'une page ou d'un post"
+
+#: ../config/config-functionalities.php:262
+msgid "Call to action opens in a new tab/window"
+msgstr "L'action lié au bouton s'ouvrira dans un nouvel onglet ou une nouvelle fenêtre"
+
+#: ../config/config-functionalities.php:272
+msgid ""
+"<strong>Recommended setting</strong>: video works better if the slideshow effect is "
+"set to \"slide\"."
+msgstr ""
+"<stong>Paramètre recommandé</stong>: L'affichage des vidéos est optimal si l'effet "
+"de défilement du carrousel est programmé sur \"glissement\""
+
+#: ../config/config-functionalities.php:279
+msgid "Poster image"
+msgstr "Image poster"
+
+#: ../config/config-functionalities.php:280
+msgid "Cover image for the video, also used as mobile fallback."
+msgstr ""
+"Image de couverture pour la vidéo, également utilisé pour le défilement sur mobile"
+
+#: ../config/config-functionalities.php:284
+msgid "Hide text when playing"
+msgstr "Masquer le texte lors de la lecture"
+
+#: ../config/config-functionalities.php:288
+msgid "Hide controls"
+msgstr "Masquer les controleurs"
+
+#: ../config/config-functionalities.php:292
+msgid "Mute video"
+msgstr "Couper le son de la vidéo"
+
+#: ../config/config-options.php:40
+msgid "White logo"
+msgstr "Logo blanc"
+
+#: ../config/config-options.php:41 ../config/modules/backpack/general/module.php: 210
+msgid ""
+"Upload an image to be used as a logo for your site. If this field is left empty, a "
+"simple text logo will be used. Please remember to load a properly dimensioned logo."
+msgstr ""
+"Télécharger une image pour l'utiliser comme logo de votre site. Si ce champs est "
+"vide, un simple texte sera affiché comme logo. Souvenez vous de chargé une image au "
+"dimensions appropriées"
+
+#: ../config/config-options.php:45
+msgid "White retina logo"
+msgstr "Logo blanc retina"
+
+#: ../config/config-options.php:46 ../config/modules/backpack/general/module.php: 215
+msgid ""
+"Upload an image to be used as a logo for your site for high definition screens. "
+"Please remember to load a properly dimensioned logo (usually you can double the size "
+"of the regular logo)."
+msgstr ""
+"Telecharger une image pour l'utiliser comme logo pour votre site pour les écrans "
+"haute définition. Souvenez vous de télécharger une image aux dimensions correctes "
+"(usuellement, doublé la taille de votre logo standard)"
+
+#: ../config/config-options.php:57
+msgid "Header layout"
+msgstr "Mise en page de l'en-tête"
+
+#: ../config/config-options.php:69 ../config/config-options.php:101
+msgid "Social"
+msgstr "Social"
+
+#: ../config/config-options.php:72
+msgid "Enable the social share links"
+msgstr "Activer les lien de partages sur les réseaux sociaux"
+
+#: ../config/config-options.php:73
+msgid ""
+"Tick if you want to enable the social share links (Facebook, Pinterest, Twitter, "
+"Googleplus and email) on each blog single post."
+msgstr ""
+"Cochez si vous voulez activer les liens de partage sur les réseaux sociaux "
+"(Facebook, Pinterest, Twitter, GooglePlus and email) pour chaque post sur le blog"
+
+#: ../config/config-options.php:77
+msgid "Social networks in the footer area"
+msgstr "Réseaux sociaux dans la zone du pied de page"
+
+#: ../config/config-options.php:82
+msgid "Activate likes for Blog posts"
+msgstr "Activer les \"j'aime\" pour les billets du blog"
+
+#: ../config/config-options.php:85 ../config/modules/backpack/builder/module.php: 154
+#: ../config/modules/backpack/builder/module.php:228
+msgid "Responsive"
+msgstr "Adaptatif"
+
+#: ../config/config-options.php:89
+msgid ""
+"Tick if you want to enable the responsive layout feature below 960px, eg. Tablet "
+"devices."
+msgstr ""
+"Cochez si vous voulez activer l'affichage adaptatif en desssous de 960px, ex. "
+"Tablette tacile"
+
+#: ../config/config-options.php:94
+msgid ""
+"Tick if you want to enable the responsive layout feature below 768px, eg. Mobile "
+"devices."
+msgstr ""
+"Cochez si vous voulez activer l'affichage adaptatif en desssous de 768px, ex. "
+"Téléphone mobile"
+
+#: ../config/config-options.php:105
+msgid "Forrst"
+msgstr "Forrst"
+
+#: ../config/config-options.php:106
+msgid "Enter your Forrst URL."
+msgstr "Entrez votre URL Forrst"
+
+#: ../config/config-options.php:110
+msgid "Youtube"
+msgstr "Youtube"
+
+#: ../config/config-options.php:111
+msgid "Enter your Youtube URL."
+msgstr "Entrez l'URL Youtube"
+
+#: ../config/config-options.php:115
+msgid "Behance"
+msgstr "Behance"
+
+#: ../config/config-options.php:116
+msgid "Enter your Behance URL."
+msgstr "Entrez l'URL Behance"
+
+#: ../config/config-options.php:120
+msgid "Picasa"
+msgstr "Picasa"
+
+#: ../config/config-options.php:121
+msgid "Enter your Picasa URL."
+msgstr "Entrez l'URL Picasa"
+
+#: ../config/config-options.php:125
+msgid "Skype"
+msgstr "Skype"
+
+#: ../config/config-options.php:126
+msgid "Enter your Skype URL."
+msgstr "Entrez l'URL Skype"
+
+#: ../config/config-options.php:130
+msgid "Dribbble"
+msgstr "Dribble"
+
+#: ../config/config-options.php:131
+msgid "Enter your Dribbble URL."
+msgstr "Entrez l'URL Dribble"
+
+#: ../config/config-options.php:135
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../config/config-options.php:136
+msgid "Enter your Twitter URL."
+msgstr "Entrez l'URL Twitter"
+
+#: ../config/config-options.php:140
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: ../config/config-options.php:141
+msgid "Enter your Vimeo URL."
+msgstr "Entrez l'URL Vimeo"
+
+#: ../config/config-options.php:145
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../config/config-options.php:146
+msgid "Enter your Facebook URL."
+msgstr "Entrez l'URL Facebook"
+
+#: ../config/config-options.php:150
+msgid "RSS"
+msgstr "RSS"
+
+#: ../config/config-options.php:151
+msgid "Enter your RSS URL."
+msgstr "Entrez l'URL du RSS"
+
+#: ../config/config-options.php:155
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: ../config/config-options.php:156
+msgid "Enter your Pinterest URL."
+msgstr "Entrez l'URL Pinterest"
+
+#: ../config/config-options.php:160
+msgid "SoundCloud"
+msgstr "Soundcloud"
+
+#: ../config/config-options.php:161
+msgid "Enter your SoundCloud URL."
+msgstr "Entrez l'URL Soundcloud"
+
+#: ../config/config-options.php:165
+msgid "Spotify"
+msgstr "Spotify"
+
+#: ../config/config-options.php:166
+msgid "Enter your Spotify URL."
+msgstr "Entrez l'URL Spotify"
+
+#: ../config/config-options.php:170
+msgid "GooglePlus"
+msgstr "Google Plus"
+
+#: ../config/config-options.php:171
+msgid "Enter your GooglePlus URL."
+msgstr "Entrez l'URL Google Plus"
+
+#: ../config/config-options.php:175
+msgid "deviantArt"
+msgstr "deviantArt"
+
+#: ../config/config-options.php:176
+msgid "Enter your deviantArt URL."
+msgstr "Entrez l'adresse deviantArt"
+
+#: ../config/config-options.php:180
+msgid "Flickr"
+msgstr "Flickr"
+
+#: ../config/config-options.php:181
+msgid "Enter your Flickr URL."
+msgstr "Entrez l'URL Flickr"
+
+#: ../config/config-options.php:185
+msgid "500px"
+msgstr "500px"
+
+#: ../config/config-options.php:186
+msgid "Enter your 500px URL."
+msgstr "Entrez l'URL 500px"
+
+#: ../config/config-options.php:190
+msgid "Instagram"
+msgstr "Instagram"
+
+#: ../config/config-options.php:191
+msgid "Enter your Instagram URL."
+msgstr "Entrez l'URL Instagram"
+
+#: ../config/config-options.php:196
+msgid "Enter your LinkedIn URL."
+msgstr "Entrez l'URL LinkedIn"
+
+#: ../config/config-options.php:200
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: ../config/config-options.php:201
+msgid "Enter your Tumblr URL."
+msgstr "Entrez l'URL Tumblr"
+
+#: ../config/config-plugins.php:101 ../framework/lib/class.tgm_plugin_activation.
+#: php:226
+msgid "Install Required Plugins"
+msgstr "Installez les plugin requis"
+
+#: ../config/config-plugins.php:102 ../framework/lib/class.tgm_plugin_activation.
+#: php:227
+msgid "Install Plugins"
+msgstr "Installez les plugins"
+
+#: ../config/config-plugins.php:103 ../framework/lib/class.tgm_plugin_activation.
+#: php:228
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installation des plugins : %s"
+
+#: ../config/config-plugins.php:104
+msgid "Something went wrong with the plugin API."
+msgstr "Quelque chose ne s'est pas passé comme prévu avec l'API du plugin"
+
+#: ../config/config-plugins.php:105 ../framework/lib/class.tgm_plugin_activation.
+#: php:230
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Ce thème requiert le plugin suivant : %1$s."
+msgstr[1] "Ce thème requiert les plugins suivant : %1$s"
+
+#: ../config/config-plugins.php:106 ../framework/lib/class.tgm_plugin_activation.
+#: php:231
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Ce thème recommande d'installer le plugin suivant : %1$s."
+msgstr[1] "Ce thème recommande d'installer les plugins suivants : %1$s."
+
+#: ../config/config-plugins.php:107 ../framework/lib/class.tgm_plugin_activation.
+#: php:232
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. Contact "
+"the administrator of this site for help on getting the plugin installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+"Désolé mais vous n'avez pas la permission d'installer ce plugin (%s). Contactez "
+"l'administrateur pour obtenir de l'aide ou pour l'installation du plugin"
+msgstr[1] ""
+"Désolé mais vous n'avez pas la permission d'installer ces plugins (%s). Contactez "
+"l'administrateur pour obtenir de l'aide ou pour l'installation des plugins"
+
+#: ../config/config-plugins.php:108 ../framework/lib/class.tgm_plugin_activation.
+#: php:233
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Le plugin requis suivant est inactif : %1$s"
+msgstr[1] "Les plugins requis suivants sont inactifs : %1$s"
+
+#: ../config/config-plugins.php:109 ../framework/lib/class.tgm_plugin_activation.
+#: php:234
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Le plugin recommandé suivant est inactif : %1$s"
+msgstr[1] "Les plugins recommandés suivant sont inactif : %1$s"
+
+#: ../config/config-plugins.php:110 ../framework/lib/class.tgm_plugin_activation.
+#: php:235
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+"Désolé mais vous n'avez pas la permission d'activer le/les plugin(s) suivant : %s. "
+"Contactez l'administrateur du site pour obtenir de l'aide ou activer le/les plugin(s)"
+msgstr[1] ""
+"Désolé mais vous n'avez pas la permission d'activer le/les plugin(s) suivant : %s. "
+"Contactez l'administrateur du site pour obtenir de l'aide ou activer le/les plugin(s)"
+
+#: ../config/config-plugins.php:111 ../framework/lib/class.tgm_plugin_activation.
+#: php:236
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure maximum "
+"compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure maximum "
+"compatibility with this theme: %1$s."
+msgstr[0] ""
+"Le/les plugin(s) suivant a/ont besoin d’être mis à jour dans leur dernières versions "
+"pour une compatibilité optimale avec ce thème: %1$s."
+msgstr[1] ""
+"Le/les plugin(s) suivant a/ont besoin d’être mis à jour dans leur dernières versions "
+"pour une compatibilité optimale avec ce thème: %1$s."
+
+#: ../config/config-plugins.php:113 ../framework/lib/class.tgm_plugin_activation.
+#: php:238
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Commencé l'installation du/des plugin(s)"
+msgstr[1] ""
+
+#: ../config/config-plugins.php:114
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "Activer le/les plugin(s) installé(s)"
+msgstr[1] ""
+
+#: ../config/config-plugins.php:115 ../framework/lib/class.tgm_plugin_activation.
+#: php:240
+msgid "Return to Required Plugins Installer"
+msgstr "Retour à l'installateur des plugins requis"
+
+#: ../config/config-plugins.php:116 ../framework/lib/class.tgm_plugin_activation.
+#: php:242 ../framework/lib/class.tgm_plugin_activation.php:2116
+msgid "Plugin activated successfully."
+msgstr "L'activation du plugin c'est faite avec succés "
+
+#: ../config/config-plugins.php:117
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Tous les plugins sont installés et activés correctement. %s"
+
+#: ../config/config-general.php:137
+msgid "Primary navigation"
+msgstr "Navigation standard"
+
+#: ../config/config-general.php:141
+msgid "Mobile navigation"
+msgstr "Navigation mobile"
+
+#: ../config/customization.php:11 ../config/customization.php:14 ..
+#: config/modules/backpack/general/module.php:209
+msgid "Logo"
+msgstr "Logo"
+
+#: ../config/customization.php:20
+msgid "Logo text transform"
+msgstr "Transformation du texte du logo"
+
+#: ../config/customization.php:23 ../config/customization.php:40 ..
+#: framework/core/customization/controls.php:258
+msgid "Lowercase"
+msgstr "Minuscule"
+
+#: ../config/customization.php:24 ../config/customization.php:41 ..
+#: framework/core/customization/controls.php:257
+msgid "Uppercase"
+msgstr "Majuscule"
+
+#: ../config/customization.php:25 ../config/customization.php:42 ..
+#: framework/core/customization/controls.php:259
+msgid "Capitalize"
+msgstr "Capitale"
+
+#: ../config/customization.php:31
+msgid "Tagline"
+msgstr "tagline"
+
+#: ../config/customization.php:37
+msgid "Tagline text transform"
+msgstr "Transformation du texte de la tagline"
+
+#: ../config/customization.php:51
+msgid "Theme style"
+msgstr "Style du thème"
+
+#: ../config/customization.php:55
+msgid "Fonts"
+msgstr "Polices"
+
+#: ../config/customization.php:62
+msgid "Big headings font"
+msgstr "Police pour grosse en-tête"
+
+#: ../config/customization.php:80
+msgid "Primary font"
+msgstr "Police principale"
+
+#: ../config/customization.php:94
+msgid "Text and subtitles font"
+msgstr "Police des textes et sous-titres"
+
+#: ../config/customization.php:103
+msgid "Colors"
+msgstr "Couleurs"
+
+#: ../config/customization.php:116
+msgid "Highlight color"
+msgstr "Couleur du survol"
+
+#: ../config/customization.php:129 ../config/modules/backpack/builder/helpers.php: 328
+#: ../config/trips/fields.php:183 ../config/trips/fields.php:187
+msgid "Background"
+msgstr "Arrière plan"
+
+#: ../config/customization.php:134
+msgid "Footer sidebar background color"
+msgstr "Couleur d'arrière plan du pied de page de la barre latérale "
+
+#: ../config/customization.php:139
+msgid "Footer background color"
+msgstr "Couleur d'arrière plan du pied de page"
+
+#: ../config/config-custom.php:41 ../config/modules/backpack/sidebars/module.php: 119
+msgid "Name"
+msgstr "Nom"
+
+#: ../config/config-custom.php:41
+msgid "Your name *"
+msgstr "Votre nom*"
+
+#: ../config/config-custom.php:43
+msgid "Your email *"
+msgstr "Votre Email*"
+
+#: ../config/config-custom.php:44
+msgid "Website"
+msgstr "Site web"
+
+#: ../config/config-custom.php:45
+msgid "Your website url"
+msgstr "URL de votre site web"
+
+#: ../config/config-custom.php:60
+msgid "This content is password protected"
+msgstr "Ce contenu est protégé par mot de passe"
+
+#: ../config/config-custom.php:60
+msgid "to view it please enter your password below"
+msgstr "pour le voir merci d'entrer le mot de passe ci dessous"
+
+#: ../config/config-custom.php:62
+msgid "Password:"
+msgstr "Mot de passe :"
+
+#: ../config/config-custom.php:64
+msgid "Submit"
+msgstr "Envoyer"
+
+#: ../config/config-custom.php:86
+msgid "Hamburger sidebar"
+msgstr "Menu latéral \"hamburger\""
+
+#: ../config/config-custom.php:86
+msgid "Sidebar loaded in the website side drawer."
+msgstr "Barre latérale chargée dans le menu déroulant latéral du site"
+
+#: ../config/config-custom.php:124
+msgid "404"
+msgstr "404"
+
+#: ../config/config-custom.php:125
+msgid "Page not found"
+msgstr "Page introuvable"
+
+#: ../config/config-custom.php:129
+msgid "Articles from this Category"
+msgstr "Article de cette catégorie"
+
+#: ../config/config-custom.php:133
+msgid "Articles from this Tag"
+msgstr "Article avec ce tag"
+
+#: ../config/config-custom.php:137
+msgid "Articles from this Taxonomy"
+msgstr "Article de cette taxonomie"
+
+#: ../config/config-custom.php:140
+msgid "Search Results"
+msgstr "Résultat de la recherche"
+
+#: ../config/config-custom.php:147
+msgid "Author archive"
+msgstr "Archive de l'auteur"
+
+#: ../config/config-custom.php:153 ../config/config-custom.php:157 ..
+#: config/config-custom.php:161
+msgid "Archives"
+msgstr "Archives"
+
+#: ../config/config-custom.php:191
+msgid "Next post"
+msgstr "Billet suivant"
+
+#: ../config/config-custom.php:214
+msgid "Previous post"
+msgstr "Billet précédent"
+
+#: ../config/config-custom.php:273
+msgid "Page layout"
+msgstr "Organisation de la page"
+
+#: ../config/config-custom.php:278
+msgid "Page header alignment"
+msgstr "Alignement de l'en-tête de la page"
+
+#: ../config/config-custom.php:287
+msgid "Page subtitle position"
+msgstr "Position du sous titre de la page"
+
+#: ../config/config-custom.php:295
+msgid "Parallax on page header"
+msgstr "Effet parallax sur l'en-tête de la page"
+
+#: ../config/config-custom.php:296
+msgid "Parallax will work on extended horizontal headers only."
+msgstr "L'effet parallax marchera uniquement sur une en-tête horizontale étendue"
+
+#: ../config/config-custom.php:300
+msgid "Header background"
+msgstr "Arrière plan de l'en-tête"
+
+#: ../config/config-custom.php:301
+msgid ""
+"In extended page header configurations, the color of the overlay (even if not "
+"enabled) or background determines the skin used for texts (e.g. a dark color "
+"automatically generates light text).<br><br>If present, the slideshows have "
+"precedence over this field."
+msgstr ""
+"Dans la configuration d'une en-tête étendue, les couleurs de recouvrement (même si "
+"inactif) ou l'arrière plan, détermine l'aspect utilisé pour le texte (ex. une "
+"couleur sombre générera automatiquement une texte clair). <br><br>"
+
+#: ../config/config-custom.php:324
+msgid "Portfolio layout"
+msgstr "Mise en page du portfolio"
+
+#: ../config/config-custom.php:333
+msgid "Filter alignment"
+msgstr "Filtre des alignements"
+
+#: ../config/config-custom.php:349
+msgid "Project short description"
+msgstr "Description du projet"
+
+#: ../config/config-custom.php:350
+msgid "You can place here a short description or the tagline for your project."
+msgstr ""
+"Vous pouvez ajouter ici une courte description du projet ou la tagline de ce dernier"
+
+#: ../config/config-custom.php:354
+msgid "Hide the featured image"
+msgstr "Masquer l'image à la une"
+
+#: ../config/config-custom.php:355
+msgid "Tick if you want to hide the featured image on single work page."
+msgstr "Cocher pour masquer l'image à la une sur une page de projet simple"
+
+#: ../config/config-custom.php:358
+msgid "Pictures appearance"
+msgstr "Aspect des iamges"
+
+#: ../config/config-custom.php:361
+msgid "Media display"
+msgstr "Affichages des médias"
+
+#: ../config/config-custom.php:362
+msgid "Mosaic display will not work if when having both pictures and videos."
+msgstr ""
+"L'affichage en mosaïc n'est pas pris en compte si vous avez à la fois des images et "
+"des vidéos"
+
+#: ../config/config-custom.php:364 ../config/modules/backpack/builder/helpers.php: 340
+#: ../config/trips/fields.php:194
+msgid "Regular"
+msgstr "Regulier"
+
+#: ../config/config-custom.php:365 ../config/modules/backpack/slideshow/posttype.
+#: php:18
+msgid "Slideshow"
+msgstr "Carrousel"
+
+#: ../config/config-custom.php:366 ..
+#: config/modules/backpack/photogallery/builder_blocks.php:50
+msgid "Mosaic"
+msgstr "Mosaïc"
+
+#: ../config/config-custom.php:371 ..
+#: config/modules/backpack/photogallery/builder_blocks.php:59
+msgid "Mosaic module"
+msgstr "Module de la mosaïc"
+
+#: ../config/config-custom.php:372 ..
+#: config/modules/backpack/photogallery/builder_blocks.php:60
+#: config/trips/fields.php:166
+msgid ""
+"E.g. 231 will produce three rows, the 1st with two images, the 2nd with three, etc."
+msgstr ""
+"Ex. 231 va créer 3 rangés, la première contiendra 2 images, la seconde deux image, "
+"la troisième 1 images, etc."
+
+#: ../config/config-custom.php:376 ..
+#: config/modules/backpack/photogallery/builder_blocks.php:64
+msgid "Mosaic gutter"
+msgstr "Marge entre chaque image de la mosaïc"
+
+#: ../config/config-custom.php:377 ..
+#: config/modules/backpack/photogallery/builder_blocks.php:65
+msgid "Space between images, in pixels."
+msgstr "Espace entre chaque image, en pixel"
+
+#: ../config/config-custom.php:382 ..
+#: config/modules/backpack/photogallery/builder_blocks.php:70
+#: config/modules/backpack/general/builder_blocks.php:773 ../config/trips/fields.
+#: php:174
+msgid "Image size"
+msgstr "Taille de l'image"
+
+#: ../config/config-custom.php:384 ..
+#: config/modules/backpack/photogallery/builder_blocks.php:72
+#: config/modules/backpack/general/builder_blocks.php:250
+#: config/modules/backpack/general/builder_blocks.php:776 ../config/trips/fields.
+#: php:176
+msgid "Large"
+msgstr "LArge"
+
+#: ../config/config-custom.php:385 ..
+#: config/modules/backpack/photogallery/builder_blocks.php:73
+#: config/modules/backpack/general/builder_blocks.php:56
+#: config/modules/backpack/general/builder_blocks.php:251
+#: config/modules/backpack/general/builder_blocks.php:404
+#: config/modules/backpack/general/builder_blocks.php:547
+#: config/modules/backpack/general/builder_blocks.php:777 ../config/trips/fields.
+#: php:177
+msgid "Medium"
+msgstr "Moyen"
+
+#: ../config/config-custom.php:387 ..
+#: config/modules/backpack/photogallery/builder_blocks.php:75
+#: config/modules/backpack/general/builder_blocks.php:249
+#: config/modules/backpack/general/builder_blocks.php:775 ../config/trips/fields.
+#: php:179 ../framework/templates/admin/fields/partials/builder/row.php:45
+#: framework/templates/admin/fields/partials/builder/row_create.php:15
+#: framework/templates/admin/fields/partials/builder/column.php:14
+msgid "Full"
+msgstr "Pleine taille"
+
+#: ../config/config-custom.php:392
+msgid "Disable images lightbox"
+msgstr "Désactiver fenêtre pop-up pour les images"
+
+#: ../config/config-custom.php:393
+msgid ""
+"Tick if you want to disable creation of a link that will open the image in a "
+"lightbox for this work."
+msgstr ""
+"Cochez pour désactiver la création d'un lien qui ouvrira l'image dans une fenêtre "
+"pop-up pour ce projet"
+
+#: ../config/config-custom.php:474
+msgid "Back to Portfolio"
+msgstr "Retour au portfolio"
+
+#: ../config/config-custom.php:491
+msgid "Activate likes for Portfolio items"
+msgstr "Activer les \"j'aime\" pour les éléments du portfolio"
+
+#: ../config/modules/backpack/lightbox/module.php:52
+msgid "Lightbox"
+msgstr "Fenêtre pop-up"
+
+#: ../config/modules/backpack/lightbox/module.php:57
+msgid "Enable lightbox"
+msgstr "Activer les fenêtre pop-up"
+
+#: ../config/modules/backpack/lightbox/module.php:58
+msgid "The functionality will be active on images and galleries."
+msgstr "Cette fonction sera active sur les images et les galeries d'aimges"
+
+#: ../config/modules/backpack/like/helpers.php:110
+msgid "Like this post"
+msgstr "Aimer ce post"
+
+#: ../config/modules/backpack/layout/helpers.php:49 ..
+#: config/modules/backpack/megamenu/module.php:41
+msgid "Columns"
+msgstr "Colonnes"
+
+#: ../config/modules/backpack/layout/helpers.php:57
+msgid "Grid spacing"
+msgstr "Espacement de la grille"
+
+#: ../config/modules/backpack/layout/helpers.php:65
+msgid "Images height"
+msgstr "Hauteur des images"
+
+#: ../config/modules/backpack/layout/helpers.php:67 ..
+#: config/modules/backpack/builder/helpers.php:341
+#: framework/core/customization/controls.php:409
+msgid "Fixed"
+msgstr "Fixe"
+
+#: ../config/modules/backpack/layout/helpers.php:68
+msgid "Variable"
+msgstr "Variable"
+
+#: ../config/modules/backpack/layout/module.php:112 ..
+#: config/modules/backpack/layout/module.php:135
+#: config/modules/backpack/blog/builder_blocks.php:40
+#: config/modules/backpack/photogallery/builder_blocks.php:42
+#: config/modules/backpack/photogallery/builder_blocks.php:47
+#: config/modules/backpack/general/builder_blocks.php:68
+#: config/modules/backpack/general/builder_blocks.php:82
+#: config/modules/backpack/general/builder_blocks.php:1348 config/trips/fields.php:133
+#: ../config/trips/fields.php:137
+msgid "Layout"
+msgstr "Mise en page"
+
+#: ../config/modules/backpack/layout/module.php:117
+msgid "Header"
+msgstr "En tête"
+
+#: ../config/modules/backpack/layout/module.php:121
+msgid "Logo position"
+msgstr "Position du logo"
+
+#: ../config/modules/backpack/layout/module.php:130
+msgid "Footer"
+msgstr "Pied de page"
+
+#: ../config/modules/backpack/layout/module.php:137
+msgid "None"
+msgstr "Aucun"
+
+#: ../config/modules/backpack/layout/module.php:141
+msgid "One column"
+msgstr "Une colonne"
+
+#: ../config/modules/backpack/layout/module.php:142
+msgid "Full width"
+msgstr "Largeur entière"
+
+#: ../config/modules/backpack/layout/module.php:145
+msgid "Two columns"
+msgstr "Deux colonnes"
+
+#: ../config/modules/backpack/layout/module.php:152
+msgid "Three columns"
+msgstr "Trois colones"
+
+#: ../config/modules/backpack/layout/module.php:158
+msgid "Four columns"
+msgstr "Quatre scolonnes"
+
+#: ../config/modules/backpack/layout/module.php:162
+msgid ""
+"Select the columns layout for the footer area. Selecting none will disable the "
+"footer area entirely."
+msgstr ""
+"Sectionnez l'agencement des colonnes pour le pied de page. La sélection de \"aucun\" "
+"désactivera complètement la zone de pied de page"
+
+#: ../config/modules/backpack/layout/module.php:183
+msgid "Page subtitle"
+msgstr "Sous titre de la page"
+
+#: ../config/modules/backpack/layout/module.php:191
+msgid "Disable page header"
+msgstr "Désactiver l'en-tête de la page"
+
+#: ../config/modules/backpack/layout/module.php:209 ../framework/core/class.admin.
+#: php:103
+msgid "Theme options"
+msgstr "Option du thème"
+
+#: ../config/modules/backpack/layout/module.php:219 ..
+#: config/modules/backpack/photogallery/builder_blocks.php:49
+msgid "Grid"
+msgstr "Grille"
+
+#: ../config/modules/backpack/layout/module.php:314
+msgid "Footer column"
+msgstr "Colonne du pied de page"
+
+#: ../config/modules/backpack/layout/module.php:315
+#, php-format
+msgid "This widget area is displayed in the #%s column in the theme footer."
+msgstr ""
+"La zone de ce widget est affichée dans la #%s colonne dans le pied de page du thème"
+
+#: ../config/modules/backpack/builder/helpers.php:338 ..
+#: config/modules/backpack/builder/module.php:108
+#: config/modules/backpack/builder/module.php:183 ../config/trips/fields.php:192
+msgid "Appearance"
+msgstr "Apparences "
+
+#: ../config/modules/backpack/builder/helpers.php:342 ../config/trips/fields.php: 195
+msgid "Parallax"
+msgstr "Parallax"
+
+#: ../config/modules/backpack/builder/helpers.php:343
+msgid "Repeated"
+msgstr "Répété "
+
+#: ../config/modules/backpack/builder/helpers.php:351
+msgid "Fit to the window height"
+msgstr "Ajuster à la taille de la fenêtre"
+
+#: ../config/modules/backpack/builder/helpers.php:352
+msgid ""
+"Force a min-height to the section container based on the window height. Please note "
+"that this option doesn't align the section content"
+msgstr ""
+"Force la hauteur minimale du container de la section basée sur la hauteur de la "
+"fenêtre. Notez que cette option n'aligne pas le contenu de la section"
+
+#: ../config/modules/backpack/builder/lib.php:264 ..
+#: config/modules/backpack/builder/module.php:148
+#: config/modules/backpack/builder/module.php:217 ../framework/core/fields/class.
+#: slidefield.php:63 ../framework/core/fields/class.slidefield.php:97
+msgid "CSS class"
+msgstr "Classe CSS"
+
+#: ../config/modules/backpack/builder/lib.php:268 ../framework/core/pages/class.
+#: frameworksettings.php:64
+msgid "Advanced"
+msgstr "Avancé"
+
+#: ../config/modules/backpack/builder/lib.php:272
+msgid "Is section title"
+msgstr "Est le titre de la section"
+
+#: ../config/modules/backpack/builder/module.php:94
+msgid "Block selection"
+msgstr "Sélection du bloc"
+
+#: ../config/modules/backpack/builder/module.php:109
+msgid "Dimensions"
+msgstr "Dimmension"
+
+#: ../config/modules/backpack/builder/module.php:114
+msgid "Width"
+msgstr "Largeur"
+
+#: ../config/modules/backpack/builder/module.php:116
+msgid "Boxed"
+msgstr "Boîte"
+
+#: ../config/modules/backpack/builder/module.php:117
+msgid "Extended"
+msgstr "Etendu"
+
+#: ../config/modules/backpack/builder/module.php:122 ..
+#: config/modules/backpack/builder/module.php:190
+msgid "E.g. 10px or 10%. If unitless, pixels will be used."
+msgstr ""
+"Ex. 10px or 10%. Si les unités ne sont pas précisées, le pixel sera l'unité par "
+"défaut "
+
+#: ../config/modules/backpack/builder/module.php:125 ..
+#: config/modules/backpack/builder/module.php:160
+#: config/modules/backpack/builder/module.php:193
+#: config/modules/backpack/builder/module.php:234
+msgid "Padding top"
+msgstr "Padding haut"
+
+#: ../config/modules/backpack/builder/module.php:130 ..
+#: config/modules/backpack/builder/module.php:165
+#: config/modules/backpack/builder/module.php:205
+#: config/modules/backpack/builder/module.php:246
+msgid "Padding bottom"
+msgstr "Padding bas"
+
+#: ../config/modules/backpack/builder/module.php:135 ..
+#: config/modules/backpack/builder/module.php:170
+#: config/modules/backpack/general/builder_blocks.php:1125
+msgid "Margin top"
+msgstr "Marge haute"
+
+#: ../config/modules/backpack/builder/module.php:140 ..
+#: config/modules/backpack/builder/module.php:175
+#: config/modules/backpack/general/builder_blocks.php:1129
+msgid "Margin bottom"
+msgstr "Marge bas"
+
+#: ../config/modules/backpack/builder/module.php:144
+msgid "Extra"
+msgstr "Extra"
+
+#: ../config/modules/backpack/builder/module.php:187 ../framework/core/class.
+#: themecustomization.php:99 ../framework/templates/admin/fields/field_background.
+#: php:30
+msgid "Background color"
+msgstr "Couleur d'arrière plan"
+
+#: ../config/modules/backpack/builder/module.php:199 ..
+#: config/modules/backpack/builder/module.php:240
+msgid "Padding right"
+msgstr "Padding droit"
+
+#: ../config/modules/backpack/builder/module.php:211 ..
+#: config/modules/backpack/builder/module.php:252
+msgid "Padding left"
+msgstr "Padding gauche"
+
+#: ../config/modules/backpack/builder/module.php:221 ..
+#: config/modules/backpack/blog/builder_blocks.php:49
+msgid "Carousel"
+msgstr "Carrousel"
+
+#: ../config/modules/backpack/builder/module.php:268
+msgid "Layout builder"
+msgstr "Gestionnaire de mise en page"
+
+#: ../config/modules/backpack/builder/module.php:274 ..
+#: config/modules/backpack/sidebars/posttype.php:45 ../framework/core/class.
+#: themecustomization.php:119
+msgid "Position"
+msgstr "Position"
+
+#: ../config/modules/backpack/builder/module.php:276
+msgid "Above the content"
+msgstr "Au dessus du contenu "
+
+#: ../config/modules/backpack/builder/module.php:277
+msgid "Below the content and comments"
+msgstr "En dessous du contenu"
+
+#: ../config/modules/backpack/builder/module.php:283
+msgid ""
+"Sections are injected in the page, usually below the regular page content. Each "
+"section can have multiple \"rows\", each row can be formed by multiple \"columns\" "
+"of various widths, each one of them containing a variable number of \"blocks\". "
+"Click on the \"Add section\" button to get started!"
+msgstr ""
+"Les sections sont ajoutées dans la page, normalement en dessous du contenu régulier "
+"de la page. Chaque section peux disposées de rangées multiples. Chaque rangé peux "
+"être composé de plusieurs colonnes de largeur variées, chacune d'entre elle "
+"contenant a nombre variable variable de bloc. Cliquez sur \"Ajouter une section\" "
+"pour commencer"
+
+#: ../config/modules/backpack/builder/module.php:286 ..
+#: framework/templates/admin/fields/field_section.php:2
+msgid "Add section"
+msgstr "Ajouter une section"
+
+#: ../config/modules/backpack/blog/helpers.php:76
+msgid "Post thumbnails open posts"
+msgstr "La miniature du billet ouvre le billet"
+
+#: ../config/modules/backpack/blog/helpers.php:77
+msgid ""
+"If checked, post featured images in the loop will link to the post instead of the "
+"image/lightbox."
+msgstr ""
+"Si coché, l'image à la une des billets fera lien vers l'article au lieux d'ouvrir "
+"l'image en pop-up"
+
+#: ../config/modules/backpack/blog/builder_blocks.php:18 ..
+#: framework/helpers/helper.frontend.php:851
+msgid "Blog"
+msgstr "Blog"
+
+#: ../config/modules/backpack/blog/builder_blocks.php:22
+msgid "Load a blog loop, with different style variants."
+msgstr "Charge un boucle de billet de blog avec différent style"
+
+#: ../config/modules/backpack/blog/builder_blocks.php:36 ..
+#: config/modules/backpack/photogallery/builder_blocks.php:39
+#: config/modules/backpack/general/builder_blocks.php:104
+#: config/modules/backpack/general/builder_blocks.php:222
+#: config/modules/backpack/general/builder_blocks.php:313
+#: config/modules/backpack/general/builder_blocks.php:804
+#: config/modules/backpack/general/builder_blocks.php:882
+#: config/modules/backpack/general/builder_blocks.php:1056
+#: config/modules/backpack/general/builder_blocks.php:1344
+#: config/modules/backpack/general/templates/fields/field_tab.php:10
+msgid "Title"
+msgstr "Titre"
+
+#: ../config/modules/backpack/blog/module.php:138
+msgid "Post display"
+msgstr "Affiche le billet"
+
+#: ../config/modules/backpack/blog/module.php:142
+msgid "Details"
+msgstr "Détails"
+
+#: ../config/modules/backpack/blog/module.php:146
+msgid "Post subtitle"
+msgstr "Sous titre du bilelt"
+
+#: ../config/modules/backpack/blog/module.php:152
+msgid "Author section"
+msgstr "Section Auteur"
+
+#: ../config/modules/backpack/blog/module.php:153
+msgid "Show a secondary section displaying the author's name, avatar and short bio."
+msgstr ""
+"Affiche une seconde section permettant l'affichage du nom de l'auteur, de son avatar "
+"et une courte description"
+
+#: ../config/modules/backpack/blog/module.php:159
+msgid "Hide navigation"
+msgstr "Masque la navigation"
+
+#: ../config/modules/backpack/blog/module.php:160
+msgid "Hide the navigation between posts secondary section."
+msgstr "Masque la navigation entre la seconde section des bilelts"
+
+#: ../config/modules/backpack/blog/module.php:168
+msgid "Show related posts"
+msgstr "Voir les billets relatifs"
+
+#: ../config/modules/backpack/blog/module.php:169
+msgid ""
+"Checking this control automatically creates a \"related posts\" section at the "
+"bottom of the post page."
+msgstr ""
+"En cochant cette case, une section \"billet relatif\" sera automatiquement créée en "
+"bas de la page"
+
+#: ../config/modules/backpack/blog/module.php:175
+msgid "Posts to show"
+msgstr "Billet à montré"
+
+#: ../config/modules/backpack/blog/module.php:176
+msgid "Choose how many related posts you want to display. Defaults to 3."
+msgstr "Choisir le nombre de billet relatif à afficher, Par défaut, 3"
+
+#: ../config/modules/backpack/blog/module.php:180
+msgid "Show thumbnails"
+msgstr "Voir les miniatures"
+
+#: ../config/modules/backpack/blog/module.php:181
+msgid "Checking this control enables the display of thumbnails for related posts."
+msgstr ""
+"L'activation de cette case permet l'affichage des miniatures pour les billets "
+"relatifs"
+
+#: ../config/modules/backpack/blog/module.php:203
+msgid "Blog loop"
+msgstr "Blog loop"
+
+#: ../config/modules/backpack/blog/module.php:242
+msgid "Blog sidebar"
+msgstr "Barre latérale du blog"
+
+#: ../config/modules/backpack/blog/module.php:242
+msgid "This widget area is intended to be used in blog pages."
+msgstr "Cette zone de widget est destinée à être utilisée dans les page du blog"
+
+#: ../config/modules/backpack/blog/module.php:243
+msgid "Archives sidebar"
+msgstr "Barre latérale \"archives\""
+
+#: ../config/modules/backpack/blog/module.php:243
+msgid "This widget area is intended to be used in blog archive pages."
+msgstr ""
+"Cette zone de widget est destinée à être utilisée dans les page archives du blog"
+
+#: ../config/modules/backpack/blog/module.php:316 ..
+#: config/modules/backpack/photogallery/module.php:135
+#: framework/templates/admin/fields/field_gallery.php:1
+msgid "Gallery"
+msgstr "Gallerie"
+
+#: ../config/modules/backpack/blog/module.php:322
+msgid "Gallery shortcode"
+msgstr "Shortcode de la galerie"
+
+#: ../config/modules/backpack/blog/module.php:330
+msgid "Link"
+msgstr "Lien"
+
+#: ../config/modules/backpack/blog/module.php:336 ..
+#: config/modules/backpack/blog/module.php:360
+#: config/modules/backpack/general/builder_blocks.php:124
+#: config/modules/backpack/general/builder_blocks.php:140
+#: framework/core/class.adminmenunavwalker.php:131
+msgid "URL"
+msgstr "URL"
+
+#: ../config/modules/backpack/blog/module.php:344 ..
+#: config/modules/backpack/general/builder_blocks.php:1266
+msgid "Quote"
+msgstr "Citation"
+
+#: ../config/modules/backpack/blog/module.php:350 ../framework/core/fields/class.
+#: keyvaluefield.php:58
+msgid "Text"
+msgstr "Texte"
+
+#: ../config/modules/backpack/blog/module.php:351
+msgid "This is where your quote text goes."
+msgstr "Placez le texte de votre citation ici"
+
+#: ../config/modules/backpack/blog/module.php:355 ..
+#: config/modules/backpack/general/builder_blocks.php:1270
+msgid "Author"
+msgstr "Auteur"
+
+#: ../config/modules/backpack/blog/module.php:356 ..
+#: config/modules/backpack/blog/module.php:361
+msgid "Optional"
+msgstr "Optionnel "
+
+#: ../config/modules/backpack/blog/module.php:369
+msgid "Audio"
+msgstr "Audio"
+
+#: ../config/modules/backpack/blog/module.php:375
+msgid "MP3"
+msgstr "MP3"
+
+#: ../config/modules/backpack/blog/module.php:376
+msgid "Insert the URL to an MP3 audio file."
+msgstr "Insérez l'URL d'un fichier audio MP3"
+
+#: ../config/modules/backpack/blog/module.php:380
+msgid "Ogg"
+msgstr "Ogg"
+
+#: ../config/modules/backpack/blog/module.php:381
+msgid "Insert the URL to an Ogg audio file."
+msgstr "Insérez l'URL d'un fichier audio Ogg"
+
+#: ../config/modules/backpack/blog/module.php:385
+msgid "Wav"
+msgstr "Wav"
+
+#: ../config/modules/backpack/blog/module.php:386
+msgid "Insert the URL to an Wav audio file."
+msgstr "Insérez l'URL d'un fichier audio Wav"
+
+#: ../config/modules/backpack/blog/module.php:390 ..
+#: framework/templates/admin/fields/field_video.php:37
+msgid "Embed"
+msgstr "Intégré"
+
+#: ../config/modules/backpack/blog/module.php:391
+msgid "Alternatively, insert the URL to an external audio to be embedded."
+msgstr "Sinon, insérez l'URL d'une vidéo externe pour l'intégrer"
+
+#: ../config/modules/backpack/blog/module.php:399 ..
+#: config/modules/backpack/blog/module.php:405
+#: config/modules/backpack/general/builder_blocks.php:846
+msgid "Video"
+msgstr "Vidéo"
+
+#: ../config/modules/backpack/appearance/module.php:31
+msgid "Custom CSS"
+msgstr "CSS personnalisé"
+
+#: ../config/modules/backpack/appearance/module.php:60
+msgid "Fonts imports"
+msgstr "Importer des polices"
+
+#: ../config/modules/backpack/appearance/module.php:62
+msgid "Google Fonts"
+msgstr "Google fonts"
+
+#: ../config/modules/backpack/appearance/module.php:67 ../config/trips/fields.php: 122
+#: ../framework/templates/admin/fields/partials/builder/column_create.php:20 .
+#: framework/templates/admin/fields/partials/builder/column.php:94
+msgid "Add"
+msgstr "Ajouter"
+
+#: ../config/modules/backpack/appearance/module.php:70
+msgid "Google font"
+msgstr "Google font"
+
+#: ../config/modules/backpack/appearance/module.php:73
+msgid "External"
+msgstr "Externe"
+
+#: ../config/modules/backpack/appearance/module.php:92
+msgid "Typekit kit ID"
+msgstr "ID du kit de police"
+
+#: ../config/modules/backpack/appearance/module.php:98
+msgid "External import code"
+msgstr "Code externe d'importation"
+
+#: ../config/modules/backpack/appearance/module.php:103
+msgid "Fonts in use"
+msgstr "Police en utilisation"
+
+#: ../config/modules/backpack/appearance/module.php:112
+msgid "Custom fonts upload"
+msgstr "Téléchargé des police personnalisées"
+
+#: ../config/modules/backpack/appearance/module.php:114 ..
+#: framework/core/pages/class.frameworksettings.php:48
+#: framework/templates/admin/tab.php:27
+msgid "Save changes"
+msgstr "Sauvegarder les changements"
+
+#: ../config/modules/backpack/appearance/module.php:120
+msgid "Upload new font"
+msgstr "Téléchargé nouvelle police"
+
+#: ../config/modules/backpack/appearance/module.php:123 ..
+#: framework/templates/admin/fields/field_gallery.php:5
+msgid "Upload"
+msgstr "Téléchargé"
+
+#: ../config/modules/backpack/megamenu/module.php:40
+msgid "Is mega menu?"
+msgstr "Est un grand menu ?"
+
+#: ../config/modules/backpack/megamenu/module.php:42
+msgid "Auto"
+msgstr "Auto"
+
+#: ../config/modules/backpack/megamenu/module.php:51
+msgid "Disable the item link?"
+msgstr "Désactiver le lien de l'éléments ?"
+
+#: ../config/modules/backpack/megamenu/module.php:51
+msgid "Disable the link applied to the menu item to use this element as label"
+msgstr ""
+"Désactive le lien appliqué à cet élément du menu pour utiliser cet élément comme un "
+"label"
+
+#: ../config/modules/backpack/sidebars/posttype.php:33 ..
+#: config/modules/backpack/sidebars/posttype.php:75
+msgid "Sidebar"
+msgstr "Barre latérale "
+
+#: ../config/modules/backpack/sidebars/module.php:107 ..
+#: config/modules/backpack/sidebars/module.php:113
+msgid "Sidebars"
+msgstr "Barres latérales"
+
+#: ../config/modules/backpack/sidebars/module.php:115
+msgid "Add new sidebar"
+msgstr "Ajouter une nouvelle barre latérale"
+
+#: ../config/modules/backpack/photogallery/module.php:129 ..
+#: config/modules/backpack/photogallery/builder_blocks.php:95
+#: config/modules/backpack/slideshow/posttype.php:6
+#: config/modules/backpack/slideshow/module.php:38
+msgid "Slide"
+msgstr "Diapositive"
+
+#: ../config/modules/backpack/photogallery/module.php:138
+msgid "Configuration"
+msgstr "Configuration"
+
+#: ../config/modules/backpack/photogallery/module.php:145
+msgid "Pictures per page"
+msgstr "Images par page"
+
+#: ../config/modules/backpack/photogallery/module.php:146
+msgid ""
+"Choose how many pictures to load dinamically. Leaving this empty will show all the "
+"images available."
+msgstr ""
+"Choisir le nombre d'image à charger dinamiquement. Laisser vide pour charger toutes "
+"les images"
+
+#: ../config/modules/backpack/photogallery/module.php:150 ..
+#: config/modules/backpack/photogallery/builder_blocks.php:79
+#: config/modules/backpack/photogallery/builder_blocks.php:86
+msgid "Photos"
+msgstr "Photos"
+
+#: ../config/modules/backpack/photogallery/module.php:153 ..
+#: config/modules/backpack/photogallery/builder_blocks.php:89
+msgid "Add photo"
+msgstr "Ajouter une photo"
+
+#: ../config/modules/backpack/photogallery/module.php:155 ..
+#: config/modules/backpack/photogallery/builder_blocks.php:91
+msgid "Add photos"
+msgstr "Ajouter des photos"
+
+#: ../config/modules/backpack/photogallery/builder_blocks.php:18
+msgid "Photogallery"
+msgstr "Galerie photos"
+
+#: ../config/modules/backpack/photogallery/builder_blocks.php:23
+msgid "A collection of images in a grid format."
+msgstr "Une collection d'images dans une grille"
+
+#: ../config/modules/backpack/photogallery/builder_blocks.php:54
+msgid "Grid options"
+msgstr "Options de la grilles"
+
+#: ../config/modules/backpack/photogallery/builder_blocks.php:57 ..
+#: config/trips/fields.php:162
+msgid "Mosaic options"
+msgstr "Option de la mosaïc"
+
+#: ../config/modules/backpack/photogallery/builder_blocks.php:83
+msgid "Force disable lightbox"
+msgstr "Forcé la désactivation du pop-up"
+
+#: ../config/modules/backpack/photogallery/templates/photogallery.php:37
+msgid "Load more"
+msgstr "Chargé la suite"
+
+#: ../config/modules/backpack/general/builder_blocks.php:18
+msgid "Text box"
+msgstr "Champs de texte"
+
+#: ../config/modules/backpack/general/builder_blocks.php:24
+msgid ""
+"A simple text block, with options concerning alignment, icon shown, and the ability "
+"to add a call to action button."
+msgstr ""
+"Bloc de texte simple, avec des options d'alignements, affichage des icones et les "
+"possibilité d'ajouter des bouton d'appel à l'action"
+
+#: ../config/modules/backpack/general/builder_blocks.php:35 ..
+#: config/modules/backpack/general/builder_blocks.php:36
+#: config/modules/backpack/general/builder_blocks.php:392
+#: config/modules/backpack/general/builder_blocks.php:395
+#: config/modules/backpack/general/builder_blocks.php:522
+#: config/modules/backpack/general/builder_blocks.php:525
+#: config/modules/backpack/general/builder_blocks.php:1065
+#: config/modules/backpack/general/templates/fields/field_tab.php:8
+msgid "Icon"
+msgstr "Icone"
+
+#: ../config/modules/backpack/general/builder_blocks.php:39
+msgid "Symbol"
+msgstr "Symbole"
+
+#: ../config/modules/backpack/general/builder_blocks.php:43 ..
+#: config/modules/backpack/general/builder_blocks.php:87
+#: config/modules/backpack/general/builder_blocks.php:645
+msgid "Style"
+msgstr "Style"
+
+#: ../config/modules/backpack/general/builder_blocks.php:48 ..
+#: config/modules/backpack/general/builder_blocks.php:529
+#: config/modules/backpack/general/builder_blocks.php:1069
+#: config/modules/backpack/general/templates/fields/field_tab.php:9
+#: framework/core/class.themecustomization.php:84
+msgid "Color"
+msgstr "Color"
+
+#: ../config/modules/backpack/general/builder_blocks.php:52 ..
+#: config/modules/backpack/general/builder_blocks.php:442
+#: framework/core/class.themecustomization.php:138
+msgid "Size"
+msgstr "Taille"
+
+#: ../config/modules/backpack/general/builder_blocks.php:57 ..
+#: config/modules/backpack/general/builder_blocks.php:405
+#: config/modules/backpack/general/builder_blocks.php:548
+msgid "Big"
+msgstr "Grand"
+
+#: ../config/modules/backpack/general/builder_blocks.php:61 ..
+#: config/modules/backpack/general/builder_blocks.php:64
+#: config/modules/backpack/general/builder_blocks.php:751
+#: config/modules/backpack/general/builder_blocks.php:769
+#: config/modules/backpack/general/builder_blocks.php:1262
+msgid "Image"
+msgstr "Image"
+
+#: ../config/modules/backpack/general/builder_blocks.php:92
+msgid "Subtitle position"
+msgstr "Position du sous titre"
+
+#: ../config/modules/backpack/general/builder_blocks.php:93
+msgid "Position relative to the block's title."
+msgstr "Position relative au titre du bloc"
+
+#: ../config/modules/backpack/general/builder_blocks.php:100
+msgid "Contents"
+msgstr "Contenus"
+
+#: ../config/modules/backpack/general/builder_blocks.php:108 ..
+#: config/trips/posttype.php:129
+msgid "Subtitle"
+msgstr "Sous titre"
+
+#: ../config/modules/backpack/general/builder_blocks.php:112 ..
+#: config/modules/backpack/general/builder_blocks.php:808
+#: config/modules/backpack/general/builder_blocks.php:886
+#: config/modules/backpack/general/templates/fields/field_tab.php:11
+msgid "Content"
+msgstr "Cotenu"
+
+#: ../config/modules/backpack/general/builder_blocks.php:115
+msgid "Call to action"
+msgstr "Appel à l'action"
+
+#: ../config/modules/backpack/general/builder_blocks.php:116
+msgid "Primary"
+msgstr "Primaire"
+
+#: ../config/modules/backpack/general/builder_blocks.php:119 ..
+#: config/modules/backpack/general/builder_blocks.php:135
+#: config/modules/backpack/general/builder_blocks.php:426
+#: config/modules/backpack/general/builder_blocks.php:570 ../config/trips/fields.
+#: php:85 ../framework/core/fields/class.keyvaluefield.php:57
+msgid "Label"
+msgstr "Label"
+
+#: ../config/modules/backpack/general/builder_blocks.php:129 ..
+#: config/modules/backpack/general/builder_blocks.php:145
+msgid "Link opens in a new tab/window"
+msgstr "Ouverture du lien dans un nouvelle onglet ou une nouvelle fenêtres"
+
+#: ../config/modules/backpack/general/builder_blocks.php:132
+msgid "Secondary"
+msgstr "Secondaire"
+
+#: ../config/modules/backpack/general/builder_blocks.php:199
+msgid "Page/post"
+msgstr "Page/Billet"
+
+#: ../config/modules/backpack/general/builder_blocks.php:203
+msgid "Load content (title, excerpt, featured image) from a page or post."
+msgstr ""
+"Charger le contenu (titre/extrait, image à la une) à partir d'une page ou d'un billet"
+
+#: ../config/modules/backpack/general/builder_blocks.php:217
+msgid "ID"
+msgstr "IS"
+
+#: ../config/modules/backpack/general/builder_blocks.php:218
+msgid "Enter a the page ID."
+msgstr "Entrez l'ID de la page"
+
+#: ../config/modules/backpack/general/builder_blocks.php:223
+msgid "Enter a new title that will override the original page title."
+msgstr "Entrez un nouveau titre qui remplacera le titre original de la page"
+
+#: ../config/modules/backpack/general/builder_blocks.php:227
+msgid "Show excerpt"
+msgstr "Voir l'extrait"
+
+#: ../config/modules/backpack/general/builder_blocks.php:228
+msgid "Check if you want to show excerpt instead of the content."
+msgstr "Cocher pour voir l'extrait au lieu du contenu"
+
+#: ../config/modules/backpack/general/builder_blocks.php:232
+msgid "Link in title"
+msgstr "Lien dans le titre"
+
+#: ../config/modules/backpack/general/builder_blocks.php:233
+msgid ""
+"Check if you want to enable the permalink to the page selected in the block title."
+msgstr "Cocher pour activer le permalien de la page selectionnée dans le bloc titre"
+
+#: ../config/modules/backpack/general/builder_blocks.php:237
+msgid "Page/post thumbnail opens permalink"
+msgstr "La miniature des pages/billets ouvre un permalien"
+
+#: ../config/modules/backpack/general/builder_blocks.php:238
+msgid "If checked, post/page featured images link directly to the post/page permalink."
+msgstr ""
+"Si coché, l'image à la une des pages/billets fait lien directement vers le permalien "
+"de la page/du billet"
+
+#: ../config/modules/backpack/general/builder_blocks.php:242
+msgid "Show Featured image"
+msgstr "Afficher l'image à la une"
+
+#: ../config/modules/backpack/general/builder_blocks.php:243
+msgid "Check if you want to show the featured image."
+msgstr "Coché pour affiché l'image à la une"
+
+#: ../config/modules/backpack/general/builder_blocks.php:247
+msgid "Featured image size"
+msgstr "Taille de l'image à la une"
+
+#: ../config/modules/backpack/general/builder_blocks.php:295
+msgid "Progress Bar"
+msgstr "Barre de progression"
+
+#: ../config/modules/backpack/general/builder_blocks.php:299
+msgid "Display numeric values in multiple progress bars."
+msgstr "Affiche des valeurs numériques dans un barre de progression multiple"
+
+#: ../config/modules/backpack/general/builder_blocks.php:317 ..
+#: config/trips/fields.php:81
+msgid "Data"
+msgstr "Data"
+
+#: ../config/modules/backpack/general/builder_blocks.php:318
+msgid ""
+"Enter the progress data, one per line, pipe separated. E.g. <code>90|Design</code>"
+msgstr ""
+"Entrez les données de la barre de progression, une donné par ligne séparé par un "
+"trait. Ex <code>90|Design</codde>"
+
+#: ../config/modules/backpack/general/builder_blocks.php:322
+msgid "Show value"
+msgstr "Affiché la valeur"
+
+#: ../config/modules/backpack/general/builder_blocks.php:323
+msgid "Check if you want to show the progress numeric value."
+msgstr "Cochez pour affiché la progression de la valeur numérique"
+
+#: ../config/modules/backpack/general/builder_blocks.php:327
+msgid "Animated"
+msgstr "Animé"
+
+#: ../config/modules/backpack/general/builder_blocks.php:328
+msgid ""
+"Check if you want to enable the progress bar animation when the block is loaded."
+msgstr ""
+"Cochez pour activer l'animation de la barre de progrès quand le bloc est chargé"
+
+#: ../config/modules/backpack/general/builder_blocks.php:332 ..
+#: config/modules/backpack/general/builder_blocks.php:575
+#: config/modules/backpack/general/builder_blocks.php:1138
+msgid "Styles"
+msgstr "Styles"
+
+#: ../config/modules/backpack/general/builder_blocks.php:377
+msgid "Radial chart"
+msgstr "Graphique circulaire"
+
+#: ../config/modules/backpack/general/builder_blocks.php:381
+msgid "Display numeric values in an animated radial chart."
+msgstr "Afficher des valeurs numériques dans un graphique radial animé"
+
+#: ../config/modules/backpack/general/builder_blocks.php:396
+msgid "The icon will replace the data value"
+msgstr "L'icone remplacera la valeur numérique"
+
+#: ../config/modules/backpack/general/builder_blocks.php:400 ..
+#: config/modules/backpack/general/builder_blocks.php:543
+msgid "Icon size"
+msgstr "Taille de l'icone"
+
+#: ../config/modules/backpack/general/builder_blocks.php:409 ..
+#: config/modules/backpack/general/builder_blocks.php:552
+msgid "Data & appearance"
+msgstr "Données et apparence"
+
+#: ../config/modules/backpack/general/builder_blocks.php:412 ..
+#: config/modules/backpack/general/builder_blocks.php:555
+msgid "Value"
+msgstr "Valeur"
+
+#: ../config/modules/backpack/general/builder_blocks.php:413
+msgid "Enter the radial chart value."
+msgstr "Entrez la valeur pou le graphique radial"
+
+#: ../config/modules/backpack/general/builder_blocks.php:417
+msgid "Unit"
+msgstr "unité"
+
+#: ../config/modules/backpack/general/builder_blocks.php:418
+msgid "Enter the radial chart unit, e.g. %."
+msgstr "Entré l'unité pour le graphique radial, Ex. %"
+
+#: ../config/modules/backpack/general/builder_blocks.php:422
+msgid "Hide value and unit"
+msgstr "Masquer la valeur et l'unité"
+
+#: ../config/modules/backpack/general/builder_blocks.php:427
+msgid "Enter radial chart label"
+msgstr "Entrez le label pour le graphique circulaire"
+
+#: ../config/modules/backpack/general/builder_blocks.php:431
+msgid "Disable animation"
+msgstr "Désactivé l'animation"
+
+#: ../config/modules/backpack/general/builder_blocks.php:443
+msgid "Enter the radial size in pixel. It will always be a square."
+msgstr "Entré le rayon en pixel. Ce sera toujours un nombre entier"
+
+#: ../config/modules/backpack/general/builder_blocks.php:447
+msgid "Line width"
+msgstr "Longueur de la ligne"
+
+#: ../config/modules/backpack/general/builder_blocks.php:448
+msgid "Enter the width of the radial chart line."
+msgstr "Entré la longueur de la ligne pour le graphique circulaire"
+
+#: ../config/modules/backpack/general/builder_blocks.php:452
+msgid "Line cap"
+msgstr "Fin de la ligne"
+
+#: ../config/modules/backpack/general/builder_blocks.php:453
+msgid "The shape of the end of the radial chart line."
+msgstr "La forme à la fin de la ligne pour les graphiques circulaires"
+
+#: ../config/modules/backpack/general/builder_blocks.php:455
+msgid "Round"
+msgstr "Rond"
+
+#: ../config/modules/backpack/general/builder_blocks.php:456
+msgid "Square"
+msgstr "Carré "
+
+#: ../config/modules/backpack/general/builder_blocks.php:461
+msgid "Line color"
+msgstr "Couleur de la ligne"
+
+#: ../config/modules/backpack/general/builder_blocks.php:462
+msgid ""
+"The radial chart color. Please note that if left empty the theme highlight color "
+"will be used."
+msgstr ""
+"Couleur du graphique radial. Notez que si le champs reste vide, la couleur par "
+"défaut sera la couleur de survol défini par le thème"
+
+#: ../config/modules/backpack/general/builder_blocks.php:466
+msgid "Track line color"
+msgstr "Couleur de la ligne de suivi"
+
+#: ../config/modules/backpack/general/builder_blocks.php:467
+msgid "The radial chart track line color."
+msgstr "Couleur de la ligne de suivi du graphique radial"
+
+#: ../config/modules/backpack/general/builder_blocks.php:507
+msgid "Counter"
+msgstr "Compteur"
+
+#: ../config/modules/backpack/general/builder_blocks.php:511
+msgid "Display an animated counter."
+msgstr "Affiche un compteur animé"
+
+#: ../config/modules/backpack/general/builder_blocks.php:530
+msgid "The icon color."
+msgstr "Couleur de l'icone."
+
+#: ../config/modules/backpack/general/builder_blocks.php:534 ..
+#: config/modules/backpack/general/builder_blocks.php:1353
+msgid "Alignment"
+msgstr "Alignement"
+
+#: ../config/modules/backpack/general/builder_blocks.php:536
+msgid "Icon left"
+msgstr "Icone gauche"
+
+#: ../config/modules/backpack/general/builder_blocks.php:537
+msgid "Icon centered"
+msgstr "Icone centré"
+
+#: ../config/modules/backpack/general/builder_blocks.php:538
+msgid "Icon right"
+msgstr "Icone droite"
+
+#: ../config/modules/backpack/general/builder_blocks.php:556
+msgid "Enter the counter final value."
+msgstr "Entrez la valeur finale du compteur"
+
+#: ../config/modules/backpack/general/builder_blocks.php:560
+msgid "Prefix"
+msgstr "Préfixe"
+
+#: ../config/modules/backpack/general/builder_blocks.php:561 ..
+#: config/modules/backpack/general/builder_blocks.php:566
+msgid "Can be used as unit. e.g. %"
+msgstr "Peut être utilisé comme une unité, Ex. %"
+
+#: ../config/modules/backpack/general/builder_blocks.php:565
+msgid "Suffix"
+msgstr "Suffixe "
+
+#: ../config/modules/backpack/general/builder_blocks.php:571
+msgid "Enter counter description"
+msgstr "Entrez la description di ccompteur"
+
+#: ../config/modules/backpack/general/builder_blocks.php:618
+msgid "Tabs"
+msgstr "Onglets"
+
+#: ../config/modules/backpack/general/builder_blocks.php:622
+msgid "Display a set of tabs."
+msgstr "Affiche un jeu d'onglets"
+
+#: ../config/modules/backpack/general/builder_blocks.php:636
+msgid "Add a tab"
+msgstr "Ajouter un onglet"
+
+#: ../config/modules/backpack/general/builder_blocks.php:648
+msgid "Horizontal"
+msgstr "Horizontal "
+
+#: ../config/modules/backpack/general/builder_blocks.php:649
+msgid "Vertical"
+msgstr "Vertical"
+
+#: ../config/modules/backpack/general/builder_blocks.php:690
+msgid "Accordion"
+msgstr "Accordéon"
+
+#: ../config/modules/backpack/general/builder_blocks.php:694
+msgid "Display a set of toggles arranged in an accordion."
+msgstr "Affiche un jeu de bouton en accordéon"
+
+#: ../config/modules/backpack/general/builder_blocks.php:708
+msgid "Add an accordion item"
+msgstr "Ajouter un élément accordéon"
+
+#: ../config/modules/backpack/general/builder_blocks.php:794
+msgid "Image link URL"
+msgstr "Lien URL de l'aimge"
+
+#: ../config/modules/backpack/general/builder_blocks.php:799
+msgid "Open link in new tab"
+msgstr "Ouverture du lien dans un nouvel onglet"
+
+#: ../config/modules/backpack/general/builder_blocks.php:800
+msgid "When specifying a custom link, you can make it open in a new browser tab."
+msgstr ""
+"Quand un lien personnalisé est spécifié, vous pouvez faire en sorte de l'ouvrir dans "
+"un nouvel onglet"
+
+#: ../config/modules/backpack/general/builder_blocks.php:850
+msgid ""
+"Display a video. You can put text beneath it, optionally making it autoplay and loop."
+msgstr ""
+"Affiche une vidéo.. Vous pouvez ajouter du texte en dessous, vous pouvez même "
+"spécifier la lecture automatique de la vidéo ou lui faire faire une boucle"
+
+#: ../config/modules/backpack/general/builder_blocks.php:864 ..
+#: framework/core/fields/class.slidefield.php:75
+msgid "Video URL"
+msgstr "URL de la vidéo"
+
+#: ../config/modules/backpack/general/builder_blocks.php:865 ..
+#: framework/core/fields/class.slidefield.php:76
+msgid "You can specify multiple comma separated formats."
+msgstr "Vous pouvez spécifier plusieurs formats, séparé par une virgule"
+
+#: ../config/modules/backpack/general/builder_blocks.php:869 ..
+#: framework/core/fields/class.slidefield.php:84
+#: framework/templates/admin/fields/field_video.php:49
+msgid "Autoplay"
+msgstr "Lecture automatique"
+
+#: ../config/modules/backpack/general/builder_blocks.php:873 ..
+#: framework/core/fields/class.slidefield.php:88
+#: framework/templates/admin/fields/field_video.php:61
+msgid "Loop"
+msgstr "Boucle"
+
+#: ../config/modules/backpack/general/builder_blocks.php:877
+msgid "Ratio"
+msgstr "Ratio/Rapport"
+
+#: ../config/modules/backpack/general/builder_blocks.php:878
+msgid "Eg. 16:9. Defaults to 16:9."
+msgstr "Ex. 16:9. Par défaut configuré à 16:9"
+
+#: ../config/modules/backpack/general/builder_blocks.php:924
+msgid "Shortcode"
+msgstr "Code raccourci "
+
+#: ../config/modules/backpack/general/builder_blocks.php:928
+msgid "Display a shortcode."
+msgstr "Affiche un code raccourci"
+
+#: ../config/modules/backpack/general/builder_blocks.php:942
+msgid "The shortcode"
+msgstr "Le code raccourci"
+
+#: ../config/modules/backpack/general/builder_blocks.php:943
+msgid "Paste here your shortcode code."
+msgstr "Collé ici votre codé raccourci"
+
+#: ../config/modules/backpack/general/builder_blocks.php:981 ..
+#: config/modules/backpack/general/builder_blocks.php:999
+msgid "Widget area"
+msgstr "Zone pour widget"
+
+#: ../config/modules/backpack/general/builder_blocks.php:985
+msgid "Display a widget area."
+msgstr "Affiche une zone de widget"
+
+#: ../config/modules/backpack/general/builder_blocks.php:1038
+msgid "List"
+msgstr "Liste"
+
+#: ../config/modules/backpack/general/builder_blocks.php:1042
+msgid "Display a list."
+msgstr "Affiche une liste"
+
+#: ../config/modules/backpack/general/builder_blocks.php:1060
+msgid "List items"
+msgstr "Liste des éléments"
+
+#: ../config/modules/backpack/general/builder_blocks.php:1061
+msgid "One per line."
+msgstr "Un par ligne"
+
+#: ../config/modules/backpack/general/builder_blocks.php:1107
+msgid "Divider"
+msgstr "Séparateur"
+
+#: ../config/modules/backpack/general/builder_blocks.php:1111
+msgid "A simple content divider."
+msgstr "Un simple séparateur de contenu"
+
+#: ../config/modules/backpack/general/builder_blocks.php:1133
+msgid "Show Go top"
+msgstr "Affiché \"allé en haut de page\""
+
+#: ../config/modules/backpack/general/builder_blocks.php:1134
+msgid "Check if you want to show the go top text."
+msgstr "Cochez si vous voulez afficher le texte \"allé en haut\""
+
+#: ../config/modules/backpack/general/builder_blocks.php:1183
+msgid "Pricing table"
+msgstr "Tableau tarifaire"
+
+#: ../config/modules/backpack/general/builder_blocks.php:1187
+msgid "Create your pricing table."
+msgstr "Créez votre tableau tarifaire"
+
+#: ../config/modules/backpack/general/builder_blocks.php:1201
+msgid "Add a price item"
+msgstr "Ajouter un élément \"prix\""
+
+#: ../config/modules/backpack/general/builder_blocks.php:1244
+msgid "Testimonial"
+msgstr "Témoignage"
+
+#: ../config/modules/backpack/general/builder_blocks.php:1248
+msgid "A testimonial block."
+msgstr "Bloc de témoignage"
+
+#: ../config/modules/backpack/general/builder_blocks.php:1271
+msgid "The quote author."
+msgstr "Auteur de la citation"
+
+#: ../config/modules/backpack/general/builder_blocks.php:1275
+msgid "Author URL"
+msgstr "URL de l'auteur"
+
+#: ../config/modules/backpack/general/builder_blocks.php:1313 ..
+#: config/modules/backpack/general/builder_blocks.php:1361
+msgid "Map"
+msgstr "Carte"
+
+#: ../config/modules/backpack/general/builder_blocks.php:1318
+msgid "A Google Maps block."
+msgstr "Un bloc carte google map"
+
+#: ../config/modules/backpack/general/builder_blocks.php:1365 ..
+#: config/trips/fields.php:89
+msgid "Latitude & longitude"
+msgstr "Latitude et longitude"
+
+#: ../config/modules/backpack/general/builder_blocks.php:1366
+msgid "The comma separated coordinates to which the map will be centered."
+msgstr "Les coordonnées séparées par un tiret sur lesquels la carte sera centré"
+
+#: ../config/modules/backpack/general/builder_blocks.php:1370 ..
+#: config/trips/posttype.php:187
+msgid "Zoom level"
+msgstr "Niveau de zoom"
+
+#: ../config/modules/backpack/general/builder_blocks.php:1371 ..
+#: config/trips/posttype.php:188
+msgid "Defaults to 12."
+msgstr "Par défaut : 12"
+
+#: ../config/modules/backpack/general/builder_blocks.php:1377
+msgid "Height"
+msgstr "Hauteur"
+
+#: ../config/modules/backpack/general/builder_blocks.php:1378
+msgid "E.g. 300px. If unitless, pixels will be used."
+msgstr "Ex. 300px. Si l'unité n'est pas spécifié, le pixel est choisi par défaut"
+
+#: ../config/modules/backpack/general/builder_blocks.php:1382 ..
+#: config/trips/posttype.php:148
+msgid "Map style"
+msgstr "Style de la carte"
+
+#: ../config/modules/backpack/general/builder_blocks.php:1383 ..
+#: config/trips/posttype.php:149
+#, php-format
+msgid "You can get more map styles <a target=\"_blank\" href=\"%s\">here</a>."
+msgstr ""
+"Vous pouvez obtenir plus de style de carte \n"
+"<a target=\"_blank\" href=\"%s\">ici</a>."
+
+#: ../config/modules/backpack/general/builder_blocks.php:1387
+msgid "Custom marker icon"
+msgstr "Marqueur personnalisé"
+
+#: ../config/modules/backpack/general/builder_blocks.php:1391
+msgid "Disable map scroll"
+msgstr "Désactiver le défilement de la carte"
+
+#: ../config/modules/backpack/general/module.php:58
+msgid "Simple icon"
+msgstr "Icone simple"
+
+#: ../config/modules/backpack/general/module.php:59
+msgid "Round bordered icon"
+msgstr "Icone à bord rond"
+
+#: ../config/modules/backpack/general/module.php:60
+msgid "Round filled icon"
+msgstr "Icone rempli rond"
+
+#: ../config/modules/backpack/general/module.php:61
+msgid "Squared filled icon"
+msgstr "Icone rempli carré "
+
+#: ../config/modules/backpack/general/module.php:62
+msgid "Squared bordered icon"
+msgstr "Icone carré avec bordure"
+
+#: ../config/modules/backpack/general/module.php:77
+msgid "Invisible"
+msgstr "Invisible"
+
+#: ../config/modules/backpack/general/module.php:78
+msgid "Simple thin line"
+msgstr "Ligne fine simple"
+
+#: ../config/modules/backpack/general/module.php:79
+msgid "Simple fat line"
+msgstr "Line épaisse simple"
+
+#: ../config/modules/backpack/general/module.php:86
+msgid "Small text"
+msgstr "Petit texte"
+
+#: ../config/modules/backpack/general/module.php:87
+msgid "Normal text"
+msgstr "Texte normal"
+
+#: ../config/modules/backpack/general/module.php:88
+msgid "Medium text"
+msgstr "Texte moyen"
+
+#: ../config/modules/backpack/general/module.php:89
+msgid "Big text"
+msgstr "Gros texte"
+
+#: ../config/modules/backpack/general/module.php:164 ..
+#: framework/core/pages/class.frameworksettings.php:46
+msgid "General"
+msgstr "Général "
+
+#: ../config/modules/backpack/general/module.php:166 ..
+#: config/modules/woocommerce/woo_options.php:55
+msgid "General options"
+msgstr "Option général "
+
+#: ../config/modules/backpack/general/module.php:170
+msgid ""
+"The copyright text will be displayed at the bottom of the site (Note: accepts basic "
+"HTML)."
+msgstr ""
+"Le texte du copyright sera affiché en bas du site (Note : accepte le code HTML "
+"basique)"
+
+#: ../config/modules/backpack/general/module.php:174
+msgid ""
+"The copyright text will be displayed at the bottom of the site (Note: accepts basic "
+"HTML).<br><br>To translate the message, one per line, prepend the locale of the "
+"language. E.g. <code>de_DE:your translated string</code>."
+msgstr ""
+"Le texte du copyright sera affiché en bas du site (Note : accepte le code HTML "
+"basique).<br><br> Pour traduire le message, ajouter, ligne par ligne, le code de "
+"language standard. Ex. <code>de_DE:your translated string</code>"
+
+#: ../config/modules/backpack/general/module.php:177
+msgid "Copyright text"
+msgstr "Texte de copiright"
+
+#: ../config/modules/backpack/general/module.php:184
+msgid "Alternate RSS feed URL"
+msgstr "URL alternative pour les RSS"
+
+#: ../config/modules/backpack/general/module.php:191
+msgid "Google Analytics tracking code"
+msgstr "Code de suivi Google Analytics"
+
+#: ../config/modules/backpack/general/module.php:192
+#, php-format
+msgid ""
+"Paste your Google Analytics code here to enable statistics tracking for this site. "
+"For more info <a href=\"%s\">read this article</a>."
+msgstr ""
+"Copiez votre code de suivi Google Analytics ici pour activer les statistique de "
+"suivi de ce site. Pour plus d'infos <a href=\"%s\"> lire cet article </a>."
+
+#: ../config/modules/backpack/general/module.php:203
+msgid "Logo & Images"
+msgstr "Logo et images"
+
+#: ../config/modules/backpack/general/module.php:214
+msgid "Retina logo"
+msgstr "Logo rétina"
+
+#: ../config/modules/backpack/general/module.php:221
+msgid "Favicon"
+msgstr "Favicon"
+
+#: ../config/modules/backpack/general/module.php:222
+msgid "Paste here the URL of your custom favicon."
+msgstr "Copiez ici l'URL de votre Favcion personnalisé "
+
+#: ../config/modules/backpack/general/module.php:226
+msgid "Apple Touch Icon 57&times;57"
+msgstr "Apple Touch icone 57&times;57"
+
+#: ../config/modules/backpack/general/module.php:227
+msgid ""
+"Paste here the URL of your custom 57&times;57px Apple Touch Icon. <a href=\"http://"
+"developer.apple.com/library/ios/#documentation/AppleApplications/Reference/"
+"SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html\">What's "
+"an Apple Touch Icon</a>?"
+msgstr ""
+"Copiez ici l'URL personnalisé de votre 57&times;57px icone pour Apple touch \n"
+"<a href=\"http://developer.apple.com/library/ios/#documentation/AppleApplications/"
+"Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html"
+"\">What's an Apple Touch Icon</a>?"
+
+#: ../config/modules/backpack/general/module.php:231
+msgid "Apple Touch Icon 72&times;72"
+msgstr "Icone Apple Touch 72&times;72"
+
+#: ../config/modules/backpack/general/module.php:232
+msgid "Paste here the URL of your custom 72&times;72px Apple Touch Icon."
+msgstr "Copiez ici l'URL de votre Icone Apple Touch 72&times;72 personnalisé"
+
+#: ../config/modules/backpack/general/module.php:236
+msgid "Apple Touch Icon 114&times;114"
+msgstr "Icone Apple Touch 114&times;114"
+
+#: ../config/modules/backpack/general/module.php:237
+msgid "Paste here the URL of your custom 114&times;114px Apple Touch Icon."
+msgstr ""
+"Copier ici l'URL de votre \n"
+"Icone Apple Touch 114&times;114"
+
+#: ../config/modules/backpack/general/module.php:241
+msgid "Apple Touch Icon 144&times;144"
+msgstr "Icone Apple Touch 144&times;144"
+
+#: ../config/modules/backpack/general/module.php:242
+msgid "Paste here the URL of your custom 144&times;144px Apple Touch Icon."
+msgstr ""
+"Copiez ici l'URL de votre \n"
+"Icone Apple Touch 144&times;144 personnalisé"
+
+#: ../config/modules/backpack/general/module.php:263
+msgid "RSS Feed"
+msgstr "RSS"
+
+#: ../config/modules/backpack/general/templates/fields/field_tab.php:2 ..
+#: config/modules/backpack/general/templates/fields/field_pricingtable.php:2
+msgid "Item (click to edit)"
+msgstr "Elements (cliquez pour éditer)"
+
+#: ../config/modules/backpack/general/templates/fields/field_pricingtable.php:8
+msgid "Featured reason"
+msgstr "Raison à la une"
+
+#: ../config/modules/backpack/general/templates/fields/field_pricingtable.php:9
+msgid "Highlighted text at the top"
+msgstr "Souligner le texte en haut"
+
+#: ../config/modules/backpack/general/templates/fields/field_pricingtable.php:11 .
+#: framework/lib/class.tgm_plugin_activation.php:1508
+msgid "Type"
+msgstr "Type"
+
+#: ../config/modules/backpack/general/templates/fields/field_pricingtable.php:13
+msgid "Currency Prefix"
+msgstr "Préfixe de la devise"
+
+#: ../config/modules/backpack/general/templates/fields/field_pricingtable.php:14
+msgid "Currency Suffix"
+msgstr "Suffixe de la devise"
+
+#: ../config/modules/backpack/general/templates/fields/field_pricingtable.php:15
+msgid "Validity"
+msgstr "Validité"
+
+#: ../config/modules/backpack/general/templates/fields/field_pricingtable.php:16 .
+#: config/trips/fields.php:94 ../framework/core/class.adminmenunavwalker.php:168
+msgid "Description"
+msgstr "Description"
+
+#: ../config/modules/backpack/general/templates/fields/field_pricingtable.php:17
+msgid "Features"
+msgstr "Carctéristiques"
+
+#: ../config/modules/backpack/general/templates/fields/field_pricingtable.php:18
+msgid "A list of features, one per line."
+msgstr "Une liste de caractéristiques, une par ligne"
+
+#: ../config/modules/backpack/general/templates/fields/field_pricingtable.php:20
+msgid "Action URL"
+msgstr "URL de l'action"
+
+#: ../config/modules/backpack/general/templates/fields/field_pricingtable.php:21
+msgid "Action Label"
+msgstr "Label de l'action"
+
+#: ../config/modules/backpack/slideshow/posttype.php:21
+msgid "Slides configuration"
+msgstr "Configuration des diapositives"
+
+#: ../config/modules/backpack/slideshow/posttype.php:25
+msgid "Slideshow effect"
+msgstr "Effet de défilement"
+
+#: ../config/modules/backpack/slideshow/posttype.php:32
+msgid "Slideshow speed"
+msgstr "Vitesse de défilement"
+
+#: ../config/modules/backpack/slideshow/posttype.php:34
+msgid "Number of seconds after which the slideshow will auto advance."
+msgstr "Nombre de secondes aprés lequel le carrousel avance automatiquement"
+
+#: ../config/modules/backpack/slideshow/posttype.php:40
+msgid "Slideshow autoplay"
+msgstr "Lecture automatique du carrousel"
+
+#: ../config/modules/backpack/slideshow/posttype.php:47
+msgid "Add images"
+msgstr "Ajouter des images"
+
+#: ../config/modules/backpack/slideshow/posttype.php:49
+msgid "Add image slides"
+msgstr "Ajouter une diapositive image"
+
+#: ../config/modules/backpack/slideshow/posttype.php:53
+msgid "Add video"
+msgstr "Ajouter une vidéo"
+
+#: ../config/modules/backpack/slideshow/posttype.php:55
+msgid "Add video slide"
+msgstr "Ajouter une diapositive vidéo"
+
+#: ../config/modules/backpack/slideshow/module.php:39
+msgid "Fade"
+msgstr "Fondu"
+
+#: ../config/modules/bbpress/bbpress_options.php:38
+msgid "Forums page options"
+msgstr "Options de la page Forum"
+
+#: ../config/modules/bbpress/bbpress_options.php:41
+msgid "Forums page sidebar"
+msgstr "Barre latérale de la page forum"
+
+#: ../config/modules/bbpress/bbpress_options.php:43 ..
+#: config/modules/woocommerce/woo_options.php:78
+#: config/modules/woocommerce/woo_options.php:109 ../framework/helpers/helper.
+#: sidebars.php:112
+msgid "No sidebar"
+msgstr "Pas de barre latérale"
+
+#: ../config/modules/bbpress/bbpress_options.php:49
+msgid "Forums page sidebar position"
+msgstr "Position de la barre latérale du forum"
+
+#: ../config/modules/woocommerce/woo_options.php:59
+msgid "Hide cart icon in the menu"
+msgstr "Masque l'icone Panier dans le mennu"
+
+#: ../config/modules/woocommerce/woo_options.php:63
+msgid "Shop & archive page options"
+msgstr "Options de la page Shop et Archives"
+
+#: ../config/modules/woocommerce/woo_options.php:66
+msgid "Columns layout"
+msgstr "Mise en page des colonnes"
+
+#: ../config/modules/woocommerce/woo_options.php:75
+msgid "Shop page sidebar"
+msgstr "Barre latérale de la page shopping"
+
+#: ../config/trips/fields.php:80 ../config/trips/posttype.php:233
+msgid "Trip stop"
+msgstr "Arrêt"
+
+#: ../config/trips/fields.php:90
+msgid "Click, search or drag the marker on the map."
+msgstr "Cliquez, cherchez ou déplacez le marqueur sur la carte"
+
+#: ../config/trips/fields.php:98
+msgid "Marker icon"
+msgstr "Icone du marqueur"
+
+#: ../config/trips/fields.php:99
+msgid "This marker will be used in the map."
+msgstr "Ce marqueur sera utilisé sur la carte"
+
+#: ../config/trips/fields.php:103
+msgid "Show on map"
+msgstr "Montrer sur la carte"
+
+#: ../config/trips/fields.php:105 ../config/trips/fields.php:113
+msgid "Yes"
+msgstr "Oui"
+
+#: ../config/trips/fields.php:106 ../config/trips/fields.php:114
+msgid "No"
+msgstr "Non"
+
+#: ../config/trips/fields.php:111
+msgid "Show in page"
+msgstr "Visible sur la page"
+
+#: ../config/trips/fields.php:118 ../config/trips/fields.php:119
+msgid "Pictures"
+msgstr "Images"
+
+#: ../config/trips/fields.php:124
+msgid "Add pictures"
+msgstr "Ajouter images"
+
+#: ../config/trips/fields.php:126
+msgid ""
+"<strong>Note</strong>: These images will be used when a \"Mosaic\" layout is "
+"selected."
+msgstr ""
+"<strong>Note</strong>:Ces images seront utilisées quand une mise en page de type "
+"Mosaïc sera séléctionnée"
+
+#: ../config/trips/fields.php:129
+msgid "Picture"
+msgstr "Images"
+
+#: ../config/trips/fields.php:139
+msgid "Full screen image"
+msgstr "Images pleiné cran"
+
+#: ../config/trips/fields.php:140
+msgid "Full screen image, centered text"
+msgstr "Image plein écran, texte centré"
+
+#: ../config/trips/fields.php:141
+msgid "Mosaic centered"
+msgstr "Mosaïc centrée"
+
+#: ../config/trips/fields.php:142
+msgid "Mosaic left"
+msgstr "Mosaïc gauche"
+
+#: ../config/trips/fields.php:143
+msgid "Mosaic right"
+msgstr "Mosaïc droite"
+
+#: ../config/trips/fields.php:144
+msgid "Image on the left"
+msgstr "Image sur la gauche"
+
+#: ../config/trips/fields.php:145
+msgid "Image on the right"
+msgstr "Image sur la droite"
+
+#: ../config/trips/fields.php:150
+msgid "Fit the viewport height"
+msgstr "Ajuster à la taille de l'écran"
+
+#: ../config/trips/fields.php:154
+msgid "Hide posts"
+msgstr "Masque les billets"
+
+#: ../config/trips/fields.php:158
+msgid "View gallery button"
+msgstr "Affiche le bouton : \"voir la galerie\""
+
+#: ../config/trips/fields.php:159
+msgid ""
+"Show a button that will display images taken from posts belonging to the trip in a "
+"lightbox (if enabled)."
+msgstr ""
+"Affiche un bouton qui permet l'affichage des images à la une des articles lié à ce "
+"voyage"
+
+#: ../config/trips/fields.php:165
+msgid "Module"
+msgstr "Module"
+
+#: ../config/trips/fields.php:170
+msgid "Gutter"
+msgstr "Marge"
+
+#: ../config/trips/options.php:9 ../config/trips/posttype.php:29
+msgid "Trips"
+msgstr "Voyages"
+
+#: ../config/trips/options.php:18
+msgid "Map button text"
+msgstr "Bouton texte de la carte"
+
+#: ../config/trips/posttype.php:30 ../config/trips/posttype.php:214 ..
+#: config/trips/posttype.php:219
+msgid "Trip"
+msgstr "Voyage"
+
+#: ../config/trips/posttype.php:31
+msgid "Add new"
+msgstr "Ajouter nouveau"
+
+#: ../config/trips/posttype.php:32
+msgid "Add new Trip"
+msgstr "Ajouter un nouveau voyage"
+
+#: ../config/trips/posttype.php:33 ..
+#: framework/templates/admin/fields/field_slide_add_video.php:19
+#: framework/templates/admin/fields/field_slide_add_image.php:13
+#: framework/templates/admin/fields/partials/builder/block_create.php:4
+#: framework/templates/admin/fields/partials/builder/block.php:14
+msgid "Edit"
+msgstr "Editer"
+
+#: ../config/trips/posttype.php:34
+msgid "Edit Trip"
+msgstr "Editer un voyage"
+
+#: ../config/trips/posttype.php:35
+msgid "New Trip"
+msgstr "Nouveau voyage"
+
+#: ../config/trips/posttype.php:36 ../config/trips/posttype.php:37
+msgid "View Trip"
+msgstr "Voir le voyage"
+
+#: ../config/trips/posttype.php:38
+msgid "Search Trips"
+msgstr "Rechercher des voyages"
+
+#: ../config/trips/posttype.php:39
+msgid "No Trips found"
+msgstr "Aucun voyage trouvé"
+
+#: ../config/trips/posttype.php:40
+msgid "No Trips found in Trash"
+msgstr "Aucun voyage trouvé dans la Corbeille"
+
+#: ../config/trips/posttype.php:41
+msgid "Parent Trip"
+msgstr "Voyage Parent"
+
+#: ../config/trips/posttype.php:84
+msgid "Trip Categories"
+msgstr "Catégories de voyages"
+
+#: ../config/trips/posttype.php:85 ../config/trips/posttype.php:94
+msgid "Trip Category"
+msgstr "Catégorie des voyages"
+
+#: ../config/trips/posttype.php:86
+msgid "Search Trip Categories"
+msgstr "Rechercher une catégorie de voyage"
+
+#: ../config/trips/posttype.php:87
+msgid "All Trip Categories"
+msgstr "Toutes les catégorie de voyages"
+
+#: ../config/trips/posttype.php:88
+msgid "Parent Trip Category"
+msgstr "Catégorie de voyage parent"
+
+#: ../config/trips/posttype.php:89
+msgid "Parent Trip Category:"
+msgstr "Catégorie de voyage parent :"
+
+#: ../config/trips/posttype.php:90
+msgid "Edit Trip Category"
+msgstr "Editer la catégorie de voyage"
+
+#: ../config/trips/posttype.php:91
+msgid "Update Trip Category"
+msgstr "Mettre à jour la catégorie du voyage"
+
+#: ../config/trips/posttype.php:92
+msgid "Add New Trip Category"
+msgstr "Ajouter une nouvelle catégorie de voyage"
+
+#: ../config/trips/posttype.php:93
+msgid "New Trip Category Name"
+msgstr "Nouvelle catégorie de voyage"
+
+#: ../config/trips/posttype.php:118
+msgid "Hide stops"
+msgstr "Masquer les arrêts"
+
+#: ../config/trips/posttype.php:119
+msgid ""
+"Hide stops from page, this could be useful if you want to only generate a map and "
+"use the page builder to design your page."
+msgstr ""
+"Masquer les arrêts sur la page. Peux être utile si vous voulez généré seulement une "
+"carte et utilisé le gestionnaire de mise en page pour concevoir votre propre page"
+
+#: ../config/trips/posttype.php:123
+msgid "Show map in page"
+msgstr "Afficher la carte sur la page"
+
+#: ../config/trips/posttype.php:124
+msgid "Show map in page also if you've an extended page header layout."
+msgstr "Afficher la carte sur la page malgré un header etendu"
+
+#: ../config/trips/posttype.php:132
+msgid "Trip map"
+msgstr "Carte du voyage"
+
+#: ../config/trips/posttype.php:138
+msgid "Map type"
+msgstr "Type de carte"
+
+#: ../config/trips/posttype.php:140
+msgid "Roadmap"
+msgstr "Carte routière"
+
+#: ../config/trips/posttype.php:141
+msgid "Satellite"
+msgstr "Satellite "
+
+#: ../config/trips/posttype.php:142
+msgid "Hybrid"
+msgstr "Hybride"
+
+#: ../config/trips/posttype.php:143
+msgid "Terrain"
+msgstr "Terrain"
+
+#: ../config/trips/posttype.php:153
+msgid "Map center"
+msgstr "Centre de la carte"
+
+#: ../config/trips/posttype.php:154
+msgid ""
+"Coordinates for the map center. If empty, the first marker will be the center of the "
+"map.<br><br><strong>Note:</strong> This is not a preview of how the map is going to "
+"be displayed."
+msgstr ""
+"Coordonnées du centre de la carte. Si vide, le premier marqueur défini le centre de "
+"la carte"
+
+#: ../config/trips/posttype.php:158
+msgid "Connect dots on the map"
+msgstr "Connecté les points sur la carte"
+
+#: ../config/trips/posttype.php:159
+msgid "Connecting the dots will create the effect of an itinerary."
+msgstr "La connexion entre les différents point permet de créer une ligne d'itinéraire"
+
+#: ../config/trips/posttype.php:163
+msgid "Geodesic map"
+msgstr "Courbure de la terre"
+
+#: ../config/trips/posttype.php:164
+msgid "Lines connecting the dots will follow the earth's curvature."
+msgstr "La ligne qui connecte les différents point suit la courbure de la terre"
+
+#: ../config/trips/posttype.php:168
+msgid "Lines color"
+msgstr "Couleur de la ligne"
+
+#: ../config/trips/posttype.php:169
+msgid "The color of the lines connecting the dots."
+msgstr "La couleur de la ligne reliant les points"
+
+#: ../config/trips/posttype.php:173
+msgid "Lines opacity"
+msgstr "Opacité de la ligne"
+
+#: ../config/trips/posttype.php:174
+msgid "Opacity of the lines connecting the dots."
+msgstr "Opacité de la ligne connectant les points"
+
+#: ../config/trips/posttype.php:181
+msgid "Lines width"
+msgstr "Épaisseur de la ligne"
+
+#: ../config/trips/posttype.php:182
+msgid "Width of the lines connecting the dots."
+msgstr "Epaisseur de la ligne connectant les points"
+
+#: ../config/trips/posttype.php:193
+msgid "Trip stops"
+msgstr "Arrêts pendant le voyage"
+
+#: ../config/trips/posttype.php:197
+msgid "Add new stop"
+msgstr "Ajouter un nouvel arrêt"
+
+#: ../framework/lib/class.tgm_plugin_activation.php:229
+msgid "Something went wrong."
+msgstr "Quelque chose ne s'est pas passé comme prévu"
+
+#: ../framework/lib/class.tgm_plugin_activation.php:239
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Commencement de l'activation du/des plugin(s)"
+msgstr[1] ""
+
+#: ../framework/lib/class.tgm_plugin_activation.php:241
+msgid "Return to the dashboard"
+msgstr "Retour au tableau de bord"
+
+#: ../framework/lib/class.tgm_plugin_activation.php:243 ../framework/lib/class.
+#: tgm_plugin_activation.php:1778
+msgid "The following plugin was activated successfully:"
+msgstr "Le pluging suivant à été activé avec succès "
+
+#: ../framework/lib/class.tgm_plugin_activation.php:244
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Tous les plugins ont été installés et activés avec succès. %1$s"
+
+#: ../framework/lib/class.tgm_plugin_activation.php:245
+msgid "Dismiss this notice"
+msgstr "Ignorer cette annonce"
+
+#: ../framework/lib/class.tgm_plugin_activation.php:595 ../framework/lib/class.
+#: tgm_plugin_activation.php:2346
+msgid "Return to the Dashboard"
+msgstr "Retour vers le tableau de bord"
+
+#: ../framework/lib/class.tgm_plugin_activation.php:1281 ../framework/lib/class.
+#: tgm_plugin_activation.php:1465
+msgid "Private Repository"
+msgstr "Dépôt privé"
+
+#: ../framework/lib/class.tgm_plugin_activation.php:1285 ../framework/lib/class.
+#: tgm_plugin_activation.php:1469
+msgid "Pre-Packaged"
+msgstr "Pré emballé"
+
+#: ../framework/lib/class.tgm_plugin_activation.php:1290
+msgid "WordPress Repository"
+msgstr "dépôt wordpress"
+
+#: ../framework/lib/class.tgm_plugin_activation.php:1293
+msgid "Required"
+msgstr "Requis"
+
+#: ../framework/lib/class.tgm_plugin_activation.php:1293
+msgid "Recommended"
+msgstr "Recommandé"
+
+#: ../framework/lib/class.tgm_plugin_activation.php:1296
+msgid "Not Installed"
+msgstr "Non installé"
+
+#: ../framework/lib/class.tgm_plugin_activation.php:1299
+msgid "Installed But Not Activated"
+msgstr "Installé mais non activé"
+
+#: ../framework/lib/class.tgm_plugin_activation.php:1416
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr "Installation %2$s"
+
+#: ../framework/lib/class.tgm_plugin_activation.php:1438
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr "Activé %2$s"
+
+#: ../framework/lib/class.tgm_plugin_activation.php:1490
+#, php-format
+msgid "No plugins to install or activate. <a href=\"%1$s\">Return to the Dashboard</a>"
+msgstr ""
+"Aucun plugin à installé ou activé \n"
+"<a href=\"%1$s\">Retour au tableau de bord</a>"
+
+#: ../framework/lib/class.tgm_plugin_activation.php:1506
+msgid "Plugin"
+msgstr "Plugin"
+
+#: ../framework/lib/class.tgm_plugin_activation.php:1507
+msgid "Source"
+msgstr "Source"
+
+#: ../framework/lib/class.tgm_plugin_activation.php:1509
+msgid "Status"
+msgstr "Statu "
+
+#: ../framework/lib/class.tgm_plugin_activation.php:1527
+msgid "Install"
+msgstr "Installer"
+
+#: ../framework/lib/class.tgm_plugin_activation.php:1528
+msgid "Activate"
+msgstr "Activer"
+
+#: ../framework/lib/class.tgm_plugin_activation.php:2244 ../framework/lib/class.
+#: tgm_plugin_activation.php:2251
+msgid "Show Details"
+msgstr "Voir les détails"
+
+#: ../framework/lib/class.tgm_plugin_activation.php:2244 ../framework/lib/class.
+#: tgm_plugin_activation.php:2251
+msgid "Hide Details"
+msgstr "Masqué les détails"
+
+#: ../framework/core/class.themecustomization.php:113
+msgid "Background image"
+msgstr "Image d'arrière plan"
+
+#: ../framework/core/class.themecustomization.php:116
+msgid "Repeat"
+msgstr "Répété "
+
+#: ../framework/core/class.themecustomization.php:122
+msgid "Attachment"
+msgstr "Attachement"
+
+#: ../framework/core/class.themecustomization.php:135 ../framework/core/class.
+#: themecustomization.php:163
+msgid "Family"
+msgstr "Famille"
+
+#: ../framework/core/class.themecustomization.php:141
+msgid "Leading"
+msgstr "Premier plan"
+
+#: ../framework/core/class.themecustomization.php:144
+msgid "Spacing"
+msgstr "Espacement"
+
+#: ../framework/core/class.themecustomization.php:147
+msgid "Variant"
+msgstr "Variante"
+
+#: ../framework/core/class.themecustomization.php:150
+msgid "Case"
+msgstr "Cas"
+
+#: ../framework/core/class.admin.php:106
+msgid "Theme appearance"
+msgstr "Apparence du thème"
+
+#: ../framework/core/class.admin.php:108 ../framework/templates/admin/page.php:25
+msgid "Changelog"
+msgstr "Rapport des mise à jour"
+
+#: ../framework/core/class.admin.php:114
+msgid "Welcome"
+msgstr "Bienvenue "
+
+#: ../framework/core/class.admin.php:118
+msgid "Theme help"
+msgstr "Aide sur le thème"
+
+#: ../framework/core/class.posttype.php:230
+msgid "Posts"
+msgstr "Billets"
+
+#: ../framework/core/class.metabox.php:123 ../framework/core/class.modal.php:74
+msgid "Options"
+msgstr "Option"
+
+#: ../framework/core/class.adminmenunavwalker.php:77
+#, php-format
+msgid "%s (Invalid)"
+msgstr "%s (Invalide)"
+
+#: ../framework/core/class.adminmenunavwalker.php:81
+#, php-format
+msgid "%s (Pending)"
+msgstr "%s (En attente)"
+
+#: ../framework/core/class.adminmenunavwalker.php:105
+msgid "Move up"
+msgstr "Déplacer vers le haut"
+
+#: ../framework/core/class.adminmenunavwalker.php:118
+msgid "Move down"
+msgstr "Deplacer vers le bas"
+
+#: ../framework/core/class.adminmenunavwalker.php:120 ../framework/core/class.
+#: adminmenunavwalker.php:122
+msgid "Edit Menu Item"
+msgstr "Editer les éléments du menu"
+
+#: ../framework/core/class.adminmenunavwalker.php:138
+msgid "Navigation Label"
+msgstr "Label de navigation"
+
+#: ../framework/core/class.adminmenunavwalker.php:144
+msgid "Title Attribute"
+msgstr "Attribut du titre"
+
+#: ../framework/core/class.adminmenunavwalker.php:151
+msgid "Open link in a new window/tab"
+msgstr "Ouvrir le lien dans un nouvel onglet / une nouvelle fenêtre"
+
+#: ../framework/core/class.adminmenunavwalker.php:170
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr "Cette description sera affiché dans le menu si le thème le supporte"
+
+#: ../framework/core/class.adminmenunavwalker.php:179
+#, php-format
+msgid "Original: %s"
+msgstr "Original : %s"
+
+#: ../framework/core/class.adminmenunavwalker.php:192 ..
+#: framework/core/pages/class.frameworksettings.php:140
+#: framework/templates/admin/fields/field.php:24
+msgid "Remove"
+msgstr "Effacer/Supprimé"
+
+#: ../framework/core/class.adminmenunavwalker.php:193
+msgid "Cancel"
+msgstr "Annulé"
+
+#: ../framework/core/customization/controls.php:215
+msgid "Bold"
+msgstr "Grad"
+
+#: ../framework/core/customization/controls.php:216
+msgid "Light"
+msgstr "Light"
+
+#: ../framework/core/customization/controls.php:299
+msgid "Italic"
+msgstr "Italique"
+
+#: ../framework/core/customization/controls.php:333
+msgid "No repeat"
+msgstr "Pas de répétition"
+
+#: ../framework/core/customization/controls.php:334
+msgid "Tile"
+msgstr "Quadriller"
+
+#: ../framework/core/customization/controls.php:335
+msgid "Tile horizontally"
+msgstr "Quadriller horizontalement"
+
+#: ../framework/core/customization/controls.php:336
+msgid "Tile vertically"
+msgstr "Quadriller verticalement"
+
+#: ../framework/core/customization/controls.php:408
+msgid "Scroll"
+msgstr "Défilement"
+
+#: ../framework/core/pages/class.frameworksettings.php:36
+msgid "Framework settings"
+msgstr "Paramètre avancé"
+
+#: ../framework/core/pages/class.frameworksettings.php:54
+msgid "Super users"
+msgstr "Super utilisateur"
+
+#: ../framework/core/pages/class.frameworksettings.php:78
+msgid "Admin customizations"
+msgstr "Personnalisation administrateur"
+
+#: ../framework/core/pages/class.frameworksettings.php:83
+msgid "Login logo"
+msgstr "Logo de login"
+
+#: ../framework/core/pages/class.frameworksettings.php:98 ..
+#: framework/core/pages/class.frameworksettings.php:100
+msgid "Export"
+msgstr "Exporter"
+
+#: ../framework/core/pages/class.frameworksettings.php:106
+msgid "Export options"
+msgstr "Option d'exportation"
+
+#: ../framework/core/pages/class.frameworksettings.php:119 ..
+#: framework/core/pages/class.frameworksettings.php:121
+msgid "Import"
+msgstr "Importer"
+
+#: ../framework/core/pages/class.frameworksettings.php:154
+msgid "Media library items"
+msgstr "Elément de la bibliothèque de médias"
+
+#: ../framework/core/fields/class.queryfilterfield.php:47
+msgid "Number of items to show"
+msgstr "Nombre d'élément à afficher"
+
+#: ../framework/core/fields/class.queryfilterfield.php:50
+msgid "Include subcategories"
+msgstr "Inclure les sous catégorie"
+
+#: ../framework/core/fields/class.queryfilterfield.php:55
+msgid "Date"
+msgstr "Date"
+
+#: ../framework/core/fields/class.queryfilterfield.php:57
+msgid "Random"
+msgstr "Aléatoire"
+
+#: ../framework/core/fields/class.queryfilterfield.php:61
+msgid "Descending"
+msgstr "Descendant"
+
+#: ../framework/core/fields/class.queryfilterfield.php:62
+msgid "Ascending"
+msgstr "Ascendant"
+
+#: ../framework/core/fields/class.slidefield.php:54 ..
+#: framework/core/fields/class.slidefield.php:70
+msgid "Edit slide"
+msgstr "Editer la diapositive"
+
+#: ../framework/core/fields/class.slidefield.php:59 ..
+#: framework/core/fields/class.slidefield.php:80
+msgid "Caption"
+msgstr "Légende"
+
+#: ../framework/core/fields/class.slidefield.php:92 ..
+#: framework/templates/admin/fields/field_video.php:73
+msgid "Fit"
+msgstr "Ajuster"
+
+#: ../framework/templates/admin/modal.php:16 ..
+#: framework/templates/admin/modal_old.php:19
+msgid "OK"
+msgstr "OK"
+
+#: ../framework/templates/admin/page.php:15
+msgid "v."
+msgstr "v."
+
+#: ../framework/templates/admin/page.php:18
+msgid "Update available"
+msgstr "Mise à jour disponible"
+
+#: ../framework/templates/admin/page.php:28
+msgid "Need help?"
+msgstr "Besoin d'aide"
+
+#: ../framework/templates/admin/modal_fields_container_duplicable.php:49 ..
+#: framework/templates/admin/tab_fields_container_duplicable.php:41
+#: framework/templates/admin/metabox_fields_container_duplicable.php:43
+msgid "Remove all"
+msgstr "Tout supprimer"
+
+#: ../framework/templates/admin/fields/field_queryfilter.php:8
+msgid "Enter -1 to show all the entries."
+msgstr "Entré -1 pour voir toutes les entrées"
+
+#: ../framework/templates/admin/fields/field_slide_add_video.php:20 ..
+#: framework/templates/admin/fields/field_slide_add_video.php:20
+#: framework/templates/admin/fields/field_slide_add_image.php:14
+#: framework/templates/admin/fields/partials/builder/column_create.php:9
+#: framework/templates/admin/fields/partials/builder/block_create.php:3
+#: framework/templates/admin/fields/partials/builder/block.php:13
+#: framework/templates/admin/fields/partials/builder/row.php:37
+#: framework/templates/admin/fields/partials/builder/row_create.php:7
+#: framework/templates/admin/fields/partials/builder/column.php:43
+msgid "Clone"
+msgstr "Dupliquer"
+
+#: ../framework/templates/admin/fields/field_video.php:4
+msgid "MP4"
+msgstr "MP4"
+
+#: ../framework/templates/admin/fields/field_video.php:8
+msgid "Insert the URL to an MP4 video file."
+msgstr "Inserez l'URL d'une vidéo au format MP4"
+
+#: ../framework/templates/admin/fields/field_video.php:15
+msgid "OGV"
+msgstr "OGV"
+
+#: ../framework/templates/admin/fields/field_video.php:19
+msgid "Insert the URL to an OGV video file."
+msgstr "Inserez l'URL d'une vidéo au format OGV"
+
+#: ../framework/templates/admin/fields/field_video.php:26
+msgid "MOV"
+msgstr "MOV"
+
+#: ../framework/templates/admin/fields/field_video.php:30
+msgid "Insert the URL to an MOV video file."
+msgstr "Inserez l'URL d'une vidéo au format MOV"
+
+#: ../framework/templates/admin/fields/field_background.php:13
+msgid "Overlay enable"
+msgstr "Activer le recouvrement"
+
+#: ../framework/templates/admin/fields/field_section.php:1
+msgid "Section"
+msgstr "Section"
+
+#: ../framework/templates/admin/fields/field_section.php:3
+msgid "Add row"
+msgstr "Ajouter une rangé"
+
+#: ../framework/templates/admin/fields/field_section.php:4
+msgid "Section appearance"
+msgstr "Apparence de la section"
+
+#: ../framework/templates/admin/fields/field_font_variants.php:18
+msgid "Variants"
+msgstr "Variantes"
+
+#: ../framework/templates/admin/fields/field_font_variants.php:30
+msgid "Subsets"
+msgstr "Sous ensembles"
+
+#: ../framework/templates/admin/fields/field_font_variants.php:37
+msgid "CSS selectors"
+msgstr "Sélecteur CSS"
+
+#: ../framework/templates/admin/fields/partials/upload.php:34
+msgid "remove image"
+msgstr "Retirer l'image"
+
+#: ../framework/templates/admin/fields/partials/builder/column_create.php:7 ..
+#: framework/templates/admin/fields/partials/builder/column.php:41
+msgid "Make smaller"
+msgstr "Rendre plus petit"
+
+#: ../framework/templates/admin/fields/partials/builder/column_create.php:8 ..
+#: framework/templates/admin/fields/partials/builder/column.php:42
+msgid "Make bigger"
+msgstr "Rendre plus gros"
+
+#: ../framework/templates/admin/fields/partials/builder/column_create.php:10 ..
+#: framework/templates/admin/fields/partials/builder/column_create.php:10
+#: framework/templates/admin/fields/partials/builder/column.php:44
+msgid "Column appearance"
+msgstr "Apparence de la colonne"
+
+#: ../framework/templates/admin/fields/partials/builder/column_create.php:15 ..
+#: framework/templates/admin/fields/partials/builder/column.php:49
+msgid "You have no blocks in this column."
+msgstr "Vous n'avez aucun contenu dans cette colonne"
+
+#: ../framework/templates/admin/fields/partials/builder/column_create.php:20 ..
+#: framework/templates/admin/fields/partials/builder/column.php:94
+msgid "Select block type"
+msgstr "Sélectionnez un type de bloc"
+
+#: ../framework/templates/admin/fields/partials/builder/row.php:35 ..
+#: framework/templates/admin/fields/partials/builder/row_create.php:5
+msgid "Row"
+msgstr "Ligne"
+
+#: ../framework/templates/admin/fields/partials/builder/row.php:39 ..
+#: framework/templates/admin/fields/partials/builder/row_create.php:9
+msgid "Add column"
+msgstr "Ajouter une colonne"
+
+#: ../framework/templates/admin/fields/partials/builder/row.php:51 ..
+#: framework/templates/admin/fields/partials/builder/row_create.php:21
+msgid "You have no columns in this row."
+msgstr "Vous n'avez pas de colonnes dans cette lignes"
+
+#: ../framework/templates/admin/fields/partials/builder/column.php:76
+#, php-format
+msgid "Missing block of type: \"%s\""
+msgstr "Bloc de type : \"%s\" manquant"
+
+#: ../framework/helpers/helper.comments.php:56
+msgid "No comments"
+msgstr "Aucun commentaires"
+
+#: ../framework/helpers/helper.comments.php:56
+msgid "1 comment"
+msgstr "1 Commentaires"
+
+#: ../framework/helpers/helper.comments.php:56
+msgid "comments"
+msgstr "Commentaires"
+
+#: ../framework/helpers/helper.comments.php:69
+msgid "Older comments"
+msgstr "Anciens commentaires"
+
+#: ../framework/helpers/helper.comments.php:70
+msgid "Newer comments"
+msgstr "Nouveau commentaires"
+
+#: ../framework/helpers/helper.frontend.php:706 ../framework/helpers/helper.
+#: frontend.php:712 ../framework/helpers/helper.frontend.php:721
+msgid "Other"
+msgstr "Autres"
+
+#: ../framework/helpers/helper.frontend.php:722
+msgid "External service"
+msgstr "Service externe "
+
+#: ../framework/helpers/helper.frontend.php:1097
+msgid "Show as carousel"
+msgstr "Affiche un carrousel "
+
+#: ../framework/helpers/helper.frontend.php:1103
+msgid "Carousel module"
+msgstr "Module carrousel "
+
+#: ../framework/helpers/helper.frontend.php:1104
+msgid "Select how many items to show at once."
+msgstr "Selectionner combien d'éléments à afficher en une fois"
+
+#: ../framework/helpers/helper.frontend.php:1117
+msgid "Show navigation arrows"
+msgstr "Affiche les flèches de navigations"
+
+#: ../framework/helpers/helper.frontend.php:1123
+msgid "Navigation arrows position"
+msgstr "Position des flèches de navigations"
+
+#: ../framework/helpers/helper.frontend.php:1133
+msgid "Show pagination"
+msgstr "Afficher la pagination"
+
+#: ../framework/helpers/helper.frontend.php:1139
+msgid "Carousel autoplay"
+msgstr "Lecture automatique du carrousel "
+
+#: ../framework/helpers/helper.frontend.php:1145
+msgid "Carousel transition time"
+msgstr "Temps de transition entre les diapositives du carrousel "
+
+#: ../framework/helpers/helper.frontend.php:1146
+msgid "Time between slides when the carousel is in autoplay. Expressed in seconds."
+msgstr ""
+"Temps entre chaque diapositive quand le carrousel est en lecture automatique. "
+"Exprimé en secondes"
+
+#: ../framework/helpers/helper.system.php:94 ../framework/helpers/helper.system.
+#: php:974 ../framework/helpers/helper.system.php:1248
+msgid "All saved!"
+msgstr "Tout est sauvegardé !"
+
+#: ../framework/helpers/helper.system.php:538
+msgid "You do not have sufficient permissions to save these options"
+msgstr "Vous n'avez pas les autorisation suffisantes pour sauvegarder ces options"
+
+#: ../framework/helpers/helper.system.php:543
+msgid "You do not have sufficient permissions to access this page"
+msgstr "Vous n'avez pas les autorisation suffisantes pour accéder à cette page"
+
+#: ../framework/helpers/helper.system.php:937
+msgid "Data imported correctly"
+msgstr "Donnée importé correctement"
+
+#: ../framework/helpers/helper.system.php:940
+msgid "No data imported"
+msgstr "Aucune donnée importée"
+
+#: ../framework/helpers/helper.system.php:944
+#, php-format
+msgid "Wrong file type. Only files with the following extensions are allowed: %s."
+msgstr ""
+"Mauvais type de fichier. Seulement les fichiers avec les extension suivantes sont "
+"autorisés : %s."
+
+#: ../framework/helpers/helper.system.php:951
+msgid "Upload failed"
+msgstr "Echec du téléchargement"
+
+#: ../framework/helpers/helper.system.php:1309
+msgid "Nothing to remove, you're all good."
+msgstr "Rien à supprimer, vous êtes tout bon"
+
+#: ../framework/helpers/helper.system.php:1317
+msgid "Dummy content removed!"
+msgstr "Dummy content supprimé"
