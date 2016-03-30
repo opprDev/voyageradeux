@@ -1,0 +1,45 @@
+// Framework config
+// -----------------------------------------------------------------------------
+
+$layout_mode: "mobile";
+@import "../../scss/__theme-config.scss";
+
+// -----------------------------------------------------------------------------
+// $WooCommerce pages
+// -----------------------------------------------------------------------------
+
+.woocommerce,
+.woocommerce-page {
+
+
+}
+
+// -----------------------------------------------------------------------------
+// $Cart
+// -----------------------------------------------------------------------------
+
+// .thb-mini-cart-icon-wrapper {
+// 	width: 32px + $gutter/2;
+
+// 	.thb-mini-cart-icon {
+// 		margin-left: $gutter/2;
+// 	}
+// }
+
+// .logo-right {
+// 	.thb-mini-cart-icon-wrapper {
+// 		width: 32px + $gutter/2;
+// 		right: auto;
+// 		left: 0;
+
+// 		.thb-mini-cart-icon {
+// 			margin-right: $gutter/2;
+// 			margin-left: 0;
+// 		}
+// 	}
+	
+// 	.thb-product-numbers {
+// 		left: auto;
+// 		right: -6px;
+// 	}
+// }

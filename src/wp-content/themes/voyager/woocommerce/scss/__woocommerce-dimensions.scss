@@ -1,0 +1,251 @@
+// -----------------------------------------------------------------------------
+// Framework config
+// -----------------------------------------------------------------------------
+
+$layout_mode: "desktop";
+@import "../../scss/__theme-config.scss";
+
+// -----------------------------------------------------------------------------
+
+.woocommerce-page,
+.woocommerce {
+
+	.product {
+		position: relative;
+	}
+
+// Shop columns
+// -----------------------------------------------------------------------------
+
+	ul.products {
+		clear: both;
+	}
+
+	ul.products  li.product {
+		width: percentage(col(3) / col($numcol));
+		margin-right: flex_col_gutter($numcol)*2;
+
+		&.first {
+			clear: both;
+		}
+
+		&.last {
+			margin-right: 0;
+		}
+	}
+
+	&.thb-shop-3col ul.products,
+	ul.products.thb-woo-3col {
+		 li.product {
+			width: percentage(col(4) / col($numcol));
+		}
+	}
+
+	&.thb-shop-4col ul.products,
+	ul.products.thb-woo-4col {
+		li.product {
+			width: percentage(col(3) / col($numcol));
+		}
+	}
+
+	.col2-set {
+
+		.col-1, .col-2 {
+			width: 50%;
+			float: left;
+		}
+
+		.col-1 {
+			padding-right: $gutter;
+		}
+	}
+
+	.images,
+	.entry-summary {
+		width: 50%;
+		float: left;
+	}
+
+	.images {
+		padding-right: $gutter;
+	}
+
+	// Cart totals
+
+	.cart-collaterals {
+		.cart_totals,
+		.cross-sells {
+			width: 50%;
+			float: left;
+		}
+
+		.cross-sells {
+			clear: none;
+			border-top: 0;
+			clear: both;
+			padding-top: 0;
+			margin-top: 0;
+			padding-right: $gutter;
+		}
+	}
+}
+
+// -----------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
+/* @media 768 */
+// -----------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
+
+$layout_mode: "tablet";
+@import "../../scss/__theme-config.scss";
+
+@include thb_media( 768, $media_768 ) {
+
+	.woocommerce-page,
+	.woocommerce {
+
+// Shop columns
+// -----------------------------------------------------------------------------
+
+		ul.products  li.product {
+			width: percentage(col(3) / col($numcol));
+			margin-right: flex_col_gutter($numcol)*2;
+
+			&.last {
+				margin-right: 0;
+			}
+		}
+
+		&.thb-shop-3col ul.products,
+		ul.products.thb-woo-3col {
+			 li.product {
+				width: percentage(col(4) / col($numcol));
+			}
+		}
+
+		&.thb-shop-4col ul.products,
+		ul.products.thb-woo-4col {
+			li.product {
+				width: percentage(col(3) / col($numcol));
+			}
+		}
+	}
+
+}
+
+// -----------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
+/* @media 480 */
+// -----------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
+
+$layout_mode: "mobile";
+@import "../../scss/__theme-config.scss";
+
+@include thb_media( 480, $media_480 ) {
+
+	.woocommerce-page,
+	.woocommerce {
+
+		// single product
+
+		.images,
+		.entry-summary {
+			width: 100%;
+		}
+
+		.images {
+			padding-right: 0;
+			margin-bottom: $baseline;
+		}
+
+		// Col set
+
+		.col2-set {
+
+			.col-1, .col-2 {
+				width: 100%;
+			}
+
+			.col-1 {
+				padding-right: 0;
+				margin-bottom: $baseline*2;
+			}
+		}
+
+		// Cart totals
+
+		.cart-collaterals {
+			.cart_totals,
+			.cross-sells {
+				width: 100%;
+			}
+
+			.cross-sells {
+				margin-bottom: $baseline*2;
+				padding-right: 0;
+			}
+		}
+
+		// cart table
+
+		.thb-actions {
+			float: left;
+			display: block;
+			width: 100%;
+
+			.button {
+				width: 100%;
+				clear: both;
+				float: left;
+				margin-left: 0;
+				margin-top: 5px;
+			}
+		}
+
+		.coupon {
+			width: 100%;
+			margin-bottom: $baseline;
+
+			.input-text {
+				width: 100%;
+			}
+
+		}
+
+// Shop columns
+// -----------------------------------------------------------------------------
+
+		@media only screen and (max-width: 480px) {
+
+			ul.products  li.product {
+				width: 100%;
+				margin-right: 0;
+
+				&.last {
+					margin-right: 0;
+				}
+			}
+
+			&.thb-shop-3col ul.products,
+			ul.products.thb-woo-3col {
+				ul.products  li.product {
+					width: 100%;
+				}
+			}
+
+			&.thb-shop-4col ul.products,
+			ul.products.thb-woo-4col {
+				ul.products  li.product {
+					width: 100%;
+				}
+			}
+		}
+	}
+
+}
+
