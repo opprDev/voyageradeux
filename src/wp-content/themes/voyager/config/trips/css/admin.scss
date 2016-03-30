@@ -1,0 +1,41 @@
+#adminmenu .menu-icon-trip div.wp-menu-image:before {
+	content: "\f230";
+}
+
+.thb .duplicable.sortable .thb-field.thb-field-voyager_trip_stop {
+	margin-bottom: 12px;
+	font-size: 14px;
+	padding: 10px;
+	line-height: 1.2;
+	border: 1px solid #ccc;
+
+	.thb-field-content-wrapper {
+		margin-left: 0;
+		width: 90%;
+
+		.thb-stop-edit.handle {
+			display: block;
+		}
+	}
+}
+
+.thb-field.thb-field-voyager_latlong {
+	.thb-field-content-wrapper {
+		position: relative;
+	}
+
+	.thb-latlong-search {
+		top: 11px !important;
+		width: 60% !important;
+	}
+
+	.thb-latlong-map {
+		width: 100%;
+		height: 300px;
+		margin-bottom: 12px;
+	}
+}
+
+.pac-container {
+	z-index: 100001 !important;
+}

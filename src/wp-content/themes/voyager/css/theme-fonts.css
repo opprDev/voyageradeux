@@ -1,0 +1,10 @@
+@font-face {
+	font-family: "voyager";
+	src:url("f/voyager.eot");
+	src:url("f/voyager.eot?#iefix") format("embedded-opentype"),
+	url("f/voyager.ttf") format("truetype"),
+	url("f/voyager.svg#voyager") format("svg"),
+	url("f/voyager.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
